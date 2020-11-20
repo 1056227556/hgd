@@ -2,6 +2,7 @@ package com.lxjn.hgd.module.model.mapper;
 
 import com.lxjn.hgd.module.model.entity.ModelApplication;
 import com.baomidou.mybatisplus.core.mapper.BaseMapper;
+import org.apache.ibatis.annotations.Mapper;
 
 /**
  * <p>

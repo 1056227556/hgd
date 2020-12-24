@@ -5,11 +5,11 @@ import com.baomidou.mybatisplus.core.mapper.BaseMapper;
 
 /**
  * <p>
- * 建模字段表 Mapper 接口
+ *  Mapper 接口
  * </p>
  *
  * @author lxjn
- * @since 2020-11-19
+ * @since 2020-12-24
  */
 public interface ModelFieldTypeMapper extends BaseMapper<ModelFieldType> {
 

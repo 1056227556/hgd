@@ -1,4 +1,4 @@
-package com.lxjn.hgd.module.model.controller;
+package com.lxjn.hgd.module.user.controller;
 
 
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -7,14 +7,14 @@ import org.springframework.web.bind.annotation.RestController;
 
 /**
  * <p>
- * 用户表 前端控制器
+ *  前端控制器
  * </p>
  *
  * @author lxjn
- * @since 2020-11-19
+ * @since 2020-12-24
  */
 @RestController
-@RequestMapping("/model/user")
-public class UserController {
+@RequestMapping("/model/login-log")
+public class LoginLogController {
 
 }

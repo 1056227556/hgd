@@ -8,11 +8,11 @@ import lombok.EqualsAndHashCode;
 
 /**
  * <p>
- * 建模字段表
+ * 
  * </p>
  *
  * @author lxjn
- * @since 2020-11-19
+ * @since 2020-12-24
  */
 @Data
 @EqualsAndHashCode(callSuper = true)
@@ -30,14 +30,14 @@ public class ModelField extends EntityParent {
     /**
      * 名称
      */
-    @TableField("fieldname")
-    private String fieldname;
+    @TableField("field_name")
+    private String fieldName;
 
     /**
-     * 字段类型
+     * 所属字段类型
      */
-    @TableField("fieldtype")
-    private Integer fieldtype;
+    @TableField("field_type_id")
+    private Integer fieldTypeId;
 
     /**
      * 所属建模表
@@ -46,7 +46,7 @@ public class ModelField extends EntityParent {
     private Integer modelTableId;
 
     /**
-     * 删除策略	0：CASCADE	1：NO ACTION	2：RESTRICT	3：SET NULL
+     * 删除策略 0：CASCADE 1：NO ACTION 2：RESTRICT 3：SET NULL
      */
     @TableField("delete_way")
     private Integer deleteWay;

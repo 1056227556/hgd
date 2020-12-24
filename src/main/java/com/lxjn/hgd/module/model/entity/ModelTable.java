@@ -8,11 +8,11 @@ import lombok.EqualsAndHashCode;
 
 /**
  * <p>
- * 建模表记录表
+ * 
  * </p>
  *
  * @author lxjn
- * @since 2020-11-19
+ * @since 2020-12-24
  */
 @Data
 @EqualsAndHashCode(callSuper = true)
@@ -24,20 +24,26 @@ public class ModelTable extends EntityParent {
     /**
      * 表名称
      */
-    @TableField("tabletext")
-    private String tabletext;
+    @TableField("table_text")
+    private String tableText;
 
     /**
      * 数据库表名
      */
-    @TableField("tablename")
-    private String tablename;
+    @TableField("table_name")
+    private String tableName;
 
     /**
-     * 是否是虚拟表
+     * 是否是视图或虚拟表
      */
-    @TableField("isvirtual")
-    private Boolean isvirtual;
+    @TableField("virtual")
+    private Boolean virtual;
+
+    /**
+     * 所属模块
+     */
+    @TableField("model_module_id")
+    private Integer modelModuleId;
 
     /**
      * 备注

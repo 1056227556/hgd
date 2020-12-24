@@ -7,11 +7,11 @@ import org.springframework.web.bind.annotation.RestController;
 
 /**
  * <p>
- * 建模表记录表 前端控制器
+ *  前端控制器
  * </p>
  *
  * @author lxjn
- * @since 2020-11-19
+ * @since 2020-12-24
  */
 @RestController
 @RequestMapping("/model/model-table")

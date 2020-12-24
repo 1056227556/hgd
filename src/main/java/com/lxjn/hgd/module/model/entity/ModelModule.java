@@ -8,11 +8,11 @@ import lombok.EqualsAndHashCode;
 
 /**
  * <p>
- * 建模模块表
+ * 
  * </p>
  *
  * @author lxjn
- * @since 2020-11-19
+ * @since 2020-12-24
  */
 @Data
 @EqualsAndHashCode(callSuper = true)
@@ -24,17 +24,23 @@ public class ModelModule extends EntityParent {
     /**
      * 模块名称
      */
-    @TableField("modename")
-    private String modename;
+    @TableField("mode_name")
+    private String modeName;
+
+    /**
+     * 模块包名
+     */
+    @TableField("package_name")
+    private String packageName;
 
     /**
      * 所属应用
      */
-    @TableField("applicationid")
-    private Integer applicationid;
+    @TableField("application_id")
+    private Integer applicationId;
 
     /**
-     * 状态	0：正常	-1：删除	
+     * 状态 0：正常 -1：删除
      */
     @TableField("status")
     private Integer status;

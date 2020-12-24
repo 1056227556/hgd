@@ -26,7 +26,7 @@ public class EntityParent {
      * 创建时间
      */
     @TableField("createtime")
-    private LocalDateTime createtime;
+    private LocalDateTime createTime;
 
     /**
      * 最后修改人

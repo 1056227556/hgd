@@ -8,11 +8,11 @@ import org.springframework.stereotype.Service;
 
 /**
  * <p>
- * 建模字段表 服务实现类
+ *  服务实现类
  * </p>
  *
  * @author lxjn
- * @since 2020-11-19
+ * @since 2020-12-24
  */
 @Service
 public class ModelFieldServiceImpl extends ServiceImpl<ModelFieldMapper, ModelField> implements IModelFieldService {

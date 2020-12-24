@@ -8,11 +8,11 @@ import lombok.EqualsAndHashCode;
 
 /**
  * <p>
- * 应用表
+ * 
  * </p>
  *
  * @author lxjn
- * @since 2020-11-19
+ * @since 2020-12-24
  */
 @Data
 @EqualsAndHashCode(callSuper = true)
@@ -24,8 +24,14 @@ public class ModelApplication extends EntityParent {
     /**
      * 应用名称
      */
-    @TableField("name")
-    private String name;
+    @TableField("app_name")
+    private String appName;
+
+    /**
+     * 备注说明
+     */
+    @TableField("remark")
+    private String remark;
 
 
 }

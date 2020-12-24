@@ -29,11 +29,11 @@ public class CodeGenerator {
 //    包路径
     private static String parent = "com.lxjn.hgd.module";
 //    模块名称
-    private static String moduleName = "model";
+    private static String moduleName = "language";
 //    要生成的表
-    private static String[] tableNames = {};
+    private static String[] tableNames = {"tb_language","tb_language_msg"};
 //    排除的表
-    private static String[] exclude = {"tb_model"};
+    private static String[] exclude = {};
 //    表前缀
     private static String tablePrefix = "tb_";
 //    实体类公共类
@@ -49,9 +49,7 @@ public class CodeGenerator {
      */
     public static String scanner(String tip) {
         Scanner scanner = new Scanner(System.in);
-        StringBuilder help = new StringBuilder();
-        help.append("请输入" + tip + "：");
-        System.out.println(help.toString());
+        System.out.println("请输入" + tip + "：");
         if (scanner.hasNext()) {
             String ipt = scanner.next();
             if (StringUtils.isNotBlank(ipt)) {

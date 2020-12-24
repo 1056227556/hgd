@@ -1,0 +1,13 @@
+{
+  "properties": [
+    {
+      "name": "my.uploadpath",
+      "type": "java.lang.String",
+      "description": "自定义文件上传磁盘路径"
+    },
+    {
+      "name": "my.uploadurl",
+      "type": "java.lang.String",
+      "description": "自定义文件访问路径"
+    }
+  ] }

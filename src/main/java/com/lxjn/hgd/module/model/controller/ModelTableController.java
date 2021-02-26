@@ -1,20 +1,13 @@
 package com.lxjn.hgd.module.model.controller;
 
 
+import io.swagger.annotations.Api;
 import org.springframework.web.bind.annotation.RequestMapping;
 
 import org.springframework.web.bind.annotation.RestController;
-
-/**
- * <p>
- *  前端控制器
- * </p>
- *
- * @author lxjn
- * @since 2020-12-24
- */
+@Api(tags = "建模表管理")
 @RestController
-@RequestMapping("/model/model-table")
+@RequestMapping("/model/table")
 public class ModelTableController {
 
 }

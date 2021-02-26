@@ -58,6 +58,15 @@ public class WebConfigurer extends WebMvcConfigurationSupport {
         // 判断文件路径写法是否与操作系统相符
         if ((os.toLowerCase().startsWith("win")&&!m_uploadPath.startsWith("/")) ||
                 (os.toLowerCase().startsWith("linux")&&m_uploadPath.startsWith("/")) ){
+
+            registry.addResourceHandler("/**").addResourceLocations("classpath:/static/");
+            // 解决swagger无法访问
+            registry.addResourceHandler("/swagger-ui.html").addResourceLocations("classpath:/META-INF/resources/");
+            // 解决swagger的js文件无法访问
+            registry.addResourceHandler("/webjars/**").addResourceLocations("classpath:/META-INF/resources/webjars/");
+
+            registry.addResourceHandler("/static/**").addResourceLocations("classpath:/static/");
+
             registry.addResourceHandler(m_uploadUrl).addResourceLocations("file:"+m_uploadPath);
 
             super.addResourceHandlers(registry);

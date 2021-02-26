@@ -1,0 +1,802 @@
+16:53:32.493 INFO  com.lxjn.hgd.HgdApplication [50] - Starting HgdApplication on longzhuang with PID 7516 (E:\project\hgd\target\classes started by longzhuang in E:\project\hgd)
+16:53:32.495 INFO  com.lxjn.hgd.HgdApplication [679] - The following profiles are active: dev
+16:53:32.642 INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor [227] - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+16:53:32.642 INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor [227] - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+16:53:34.849 INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [330] - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$a5971aae] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+16:53:35.360 INFO  o.s.b.w.e.tomcat.TomcatWebServer [90] - Tomcat initialized with port(s): 8080 (http)
+16:53:35.378 INFO  o.a.coyote.http11.Http11NioProtocol [173] - Initializing ProtocolHandler ["http-nio-8080"]
+16:53:35.392 INFO  o.a.catalina.core.StandardService [173] - Starting service [Tomcat]
+16:53:35.392 INFO  o.a.catalina.core.StandardEngine [173] - Starting Servlet engine: [Apache Tomcat/9.0.19]
+16:53:35.488 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] [173] - Initializing Spring embedded WebApplicationContext
+16:53:35.489 INFO  o.s.web.context.ContextLoader [296] - Root WebApplicationContext: initialization completed in 2847 ms
+16:53:36.902 INFO  com.lxjn.hgd.config.WebConfigurer [38] - 正在加载请求拦截器...
+16:53:37.024 INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping [69] - Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+16:53:37.049 INFO  com.lxjn.hgd.config.WebConfigurer [56] - 加载静态资源拦截器...
+16:53:37.147 INFO  o.s.b.d.a.OptionalLiveReloadServer [57] - LiveReload server is running on port 35729
+16:53:37.449 INFO  s.d.s.w.p.DocumentationPluginsBootstrapper [160] - Context refreshed
+16:53:37.495 INFO  s.d.s.w.p.DocumentationPluginsBootstrapper [163] - Found 1 custom documentation plugin(s)
+16:53:37.556 INFO  s.d.s.w.s.ApiListingReferenceScanner [41] - Scanning for api listing references
+16:53:37.909 INFO  o.a.coyote.http11.Http11NioProtocol [173] - Starting ProtocolHandler ["http-nio-8080"]
+16:53:37.928 INFO  o.s.b.w.e.tomcat.TomcatWebServer [204] - Tomcat started on port(s): 8080 (http) with context path ''
+16:53:37.930 INFO  com.lxjn.hgd.HgdApplication [59] - Started HgdApplication in 6.799 seconds (JVM running for 8.523)
+16:54:09.693 INFO  o.a.tomcat.util.http.parser.Cookie [173] - A cookie header was received [1613715950] that contained an invalid cookie. That cookie will be ignored.
+ Note: further occurrences of this error will be logged at DEBUG level.
+16:54:09.705 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] [173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+16:54:09.705 INFO  o.s.web.servlet.DispatcherServlet [524] - Initializing Servlet 'dispatcherServlet'
+16:54:09.714 INFO  o.s.web.servlet.DispatcherServlet [546] - Completed initialization in 8 ms
+16:54:09.741 INFO  c.lxjn.hgd.config.GlobalInterceptor [29] - 请求预处理...
+16:54:09.847 INFO  c.lxjn.hgd.config.GlobalInterceptor [45] - 请求后处理...
+16:54:09.847 INFO  c.lxjn.hgd.config.GlobalInterceptor [58] - 请求结果返回后处理...
+16:54:09.963 INFO  c.lxjn.hgd.config.GlobalInterceptor [29] - 请求预处理...
+16:54:09.964 INFO  c.lxjn.hgd.config.GlobalInterceptor [45] - 请求后处理...
+16:54:09.964 INFO  c.lxjn.hgd.config.GlobalInterceptor [58] - 请求结果返回后处理...
+16:54:09.970 INFO  c.lxjn.hgd.config.GlobalInterceptor [29] - 请求预处理...
+16:54:10.032 INFO  c.lxjn.hgd.config.GlobalInterceptor [45] - 请求后处理...
+16:54:10.033 INFO  c.lxjn.hgd.config.GlobalInterceptor [58] - 请求结果返回后处理...
+16:55:22.011 INFO  c.lxjn.hgd.config.GlobalInterceptor [29] - 请求预处理...
+16:55:22.012 INFO  c.lxjn.hgd.config.GlobalInterceptor [45] - 请求后处理...
+16:55:22.013 INFO  c.lxjn.hgd.config.GlobalInterceptor [58] - 请求结果返回后处理...
+16:55:22.014 INFO  c.lxjn.hgd.config.GlobalInterceptor [29] - 请求预处理...
+16:55:22.022 INFO  c.lxjn.hgd.config.GlobalInterceptor [45] - 请求后处理...
+16:55:22.025 INFO  c.lxjn.hgd.config.GlobalInterceptor [58] - 请求结果返回后处理...
+16:55:30.856 INFO  c.lxjn.hgd.config.GlobalInterceptor [29] - 请求预处理...
+16:55:30.856 INFO  c.lxjn.hgd.config.GlobalInterceptor [45] - 请求后处理...
+16:55:30.856 INFO  c.lxjn.hgd.config.GlobalInterceptor [58] - 请求结果返回后处理...
+16:55:30.857 INFO  c.lxjn.hgd.config.GlobalInterceptor [29] - 请求预处理...
+16:55:30.863 INFO  c.lxjn.hgd.config.GlobalInterceptor [45] - 请求后处理...
+16:55:30.864 INFO  c.lxjn.hgd.config.GlobalInterceptor [58] - 请求结果返回后处理...
+16:55:52.761 INFO  c.lxjn.hgd.config.GlobalInterceptor [29] - 请求预处理...
+16:55:52.761 INFO  c.lxjn.hgd.config.GlobalInterceptor [45] - 请求后处理...
+16:55:52.761 INFO  c.lxjn.hgd.config.GlobalInterceptor [58] - 请求结果返回后处理...
+16:55:52.762 INFO  c.lxjn.hgd.config.GlobalInterceptor [29] - 请求预处理...
+16:55:52.768 INFO  c.lxjn.hgd.config.GlobalInterceptor [45] - 请求后处理...
+16:55:52.768 INFO  c.lxjn.hgd.config.GlobalInterceptor [58] - 请求结果返回后处理...
+16:55:54.704 INFO  c.lxjn.hgd.config.GlobalInterceptor [29] - 请求预处理...
+16:55:54.704 INFO  c.lxjn.hgd.config.GlobalInterceptor [45] - 请求后处理...
+16:55:54.704 INFO  c.lxjn.hgd.config.GlobalInterceptor [58] - 请求结果返回后处理...
+16:55:54.705 INFO  c.lxjn.hgd.config.GlobalInterceptor [29] - 请求预处理...
+16:55:54.710 INFO  c.lxjn.hgd.config.GlobalInterceptor [45] - 请求后处理...
+16:55:54.710 INFO  c.lxjn.hgd.config.GlobalInterceptor [58] - 请求结果返回后处理...
+16:56:59.027 INFO  com.lxjn.hgd.HgdApplication [50] - Starting HgdApplication on longzhuang with PID 7516 (E:\project\hgd\target\classes started by longzhuang in E:\project\hgd)
+16:56:59.027 INFO  com.lxjn.hgd.HgdApplication [679] - The following profiles are active: dev
+16:56:59.632 INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [330] - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$a5971aae] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+16:56:59.720 INFO  o.s.b.w.e.tomcat.TomcatWebServer [90] - Tomcat initialized with port(s): 8080 (http)
+16:56:59.720 INFO  o.a.coyote.http11.Http11NioProtocol [173] - Initializing ProtocolHandler ["http-nio-8080"]
+16:56:59.721 INFO  o.a.catalina.core.StandardService [173] - Starting service [Tomcat]
+16:56:59.721 INFO  o.a.catalina.core.StandardEngine [173] - Starting Servlet engine: [Apache Tomcat/9.0.19]
+16:56:59.739 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] [173] - Initializing Spring embedded WebApplicationContext
+16:56:59.739 INFO  o.s.web.context.ContextLoader [296] - Root WebApplicationContext: initialization completed in 709 ms
+16:57:00.336 INFO  com.lxjn.hgd.config.WebConfigurer [38] - 正在加载请求拦截器...
+16:57:00.367 INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping [69] - Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+16:57:00.372 INFO  com.lxjn.hgd.config.WebConfigurer [56] - 加载静态资源拦截器...
+16:57:00.394 INFO  o.s.b.d.a.OptionalLiveReloadServer [57] - LiveReload server is running on port 35729
+16:57:00.481 INFO  s.d.s.w.p.DocumentationPluginsBootstrapper [160] - Context refreshed
+16:57:00.482 INFO  s.d.s.w.p.DocumentationPluginsBootstrapper [163] - Found 1 custom documentation plugin(s)
+16:57:00.489 INFO  s.d.s.w.s.ApiListingReferenceScanner [41] - Scanning for api listing references
+16:57:00.507 INFO  o.a.coyote.http11.Http11NioProtocol [173] - Starting ProtocolHandler ["http-nio-8080"]
+16:57:00.510 INFO  o.s.b.w.e.tomcat.TomcatWebServer [204] - Tomcat started on port(s): 8080 (http) with context path ''
+16:57:00.511 INFO  com.lxjn.hgd.HgdApplication [59] - Started HgdApplication in 1.513 seconds (JVM running for 211.104)
+16:57:00.514 INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener [70] - Condition evaluation unchanged
+17:01:39.030 INFO  com.lxjn.hgd.HgdApplication [50] - Starting HgdApplication on longzhuang with PID 7516 (E:\project\hgd\target\classes started by longzhuang in E:\project\hgd)
+17:01:39.030 INFO  com.lxjn.hgd.HgdApplication [679] - The following profiles are active: dev
+17:01:39.488 INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [330] - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$a5971aae] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+17:01:39.561 INFO  o.s.b.w.e.tomcat.TomcatWebServer [90] - Tomcat initialized with port(s): 8080 (http)
+17:01:39.562 INFO  o.a.coyote.http11.Http11NioProtocol [173] - Initializing ProtocolHandler ["http-nio-8080"]
+17:01:39.562 INFO  o.a.catalina.core.StandardService [173] - Starting service [Tomcat]
+17:01:39.562 INFO  o.a.catalina.core.StandardEngine [173] - Starting Servlet engine: [Apache Tomcat/9.0.19]
+17:01:39.581 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] [173] - Initializing Spring embedded WebApplicationContext
+17:01:39.581 INFO  o.s.web.context.ContextLoader [296] - Root WebApplicationContext: initialization completed in 548 ms
+17:01:39.672 INFO  com.lxjn.hgd.config.UrlFilter [30] - 过滤器初始化...
+17:01:40.177 INFO  com.lxjn.hgd.config.WebConfigurer [38] - 正在加载请求拦截器...
+17:01:40.205 INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping [69] - Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+17:01:40.209 INFO  com.lxjn.hgd.config.WebConfigurer [56] - 加载静态资源拦截器...
+17:01:40.228 INFO  o.s.b.d.a.OptionalLiveReloadServer [57] - LiveReload server is running on port 35729
+17:01:40.302 INFO  s.d.s.w.p.DocumentationPluginsBootstrapper [160] - Context refreshed
+17:01:40.303 INFO  s.d.s.w.p.DocumentationPluginsBootstrapper [163] - Found 1 custom documentation plugin(s)
+17:01:40.306 INFO  s.d.s.w.s.ApiListingReferenceScanner [41] - Scanning for api listing references
+17:01:40.320 INFO  o.a.coyote.http11.Http11NioProtocol [173] - Starting ProtocolHandler ["http-nio-8080"]
+17:01:40.322 INFO  o.s.b.w.e.tomcat.TomcatWebServer [204] - Tomcat started on port(s): 8080 (http) with context path ''
+17:01:40.323 INFO  com.lxjn.hgd.HgdApplication [59] - Started HgdApplication in 1.318 seconds (JVM running for 490.916)
+17:01:40.325 INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener [70] - Condition evaluation unchanged
+17:01:43.494 INFO  com.lxjn.hgd.config.UrlFilter [48] - 销毁过滤器...
+17:01:47.104 INFO  com.lxjn.hgd.HgdApplication [50] - Starting HgdApplication on longzhuang with PID 2104 (E:\project\hgd\target\classes started by longzhuang in E:\project\hgd)
+17:01:47.106 INFO  com.lxjn.hgd.HgdApplication [679] - The following profiles are active: dev
+17:01:47.149 INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor [227] - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+17:01:47.149 INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor [227] - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+17:01:48.306 INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [330] - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$4087f5f] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+17:01:48.562 INFO  o.s.b.w.e.tomcat.TomcatWebServer [90] - Tomcat initialized with port(s): 8080 (http)
+17:01:48.573 INFO  o.a.coyote.http11.Http11NioProtocol [173] - Initializing ProtocolHandler ["http-nio-8080"]
+17:01:48.580 INFO  o.a.catalina.core.StandardService [173] - Starting service [Tomcat]
+17:01:48.580 INFO  o.a.catalina.core.StandardEngine [173] - Starting Servlet engine: [Apache Tomcat/9.0.19]
+17:01:48.664 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] [173] - Initializing Spring embedded WebApplicationContext
+17:01:48.664 INFO  o.s.web.context.ContextLoader [296] - Root WebApplicationContext: initialization completed in 1514 ms
+17:01:48.711 INFO  com.lxjn.hgd.config.UrlFilter [30] - 过滤器初始化...
+17:01:49.824 INFO  com.lxjn.hgd.config.WebConfigurer [38] - 正在加载请求拦截器...
+17:01:49.903 INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping [69] - Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+17:01:49.917 INFO  com.lxjn.hgd.config.WebConfigurer [56] - 加载静态资源拦截器...
+17:01:49.977 INFO  o.s.b.d.a.OptionalLiveReloadServer [57] - LiveReload server is running on port 35729
+17:01:50.152 INFO  s.d.s.w.p.DocumentationPluginsBootstrapper [160] - Context refreshed
+17:01:50.166 INFO  s.d.s.w.p.DocumentationPluginsBootstrapper [163] - Found 1 custom documentation plugin(s)
+17:01:50.194 INFO  s.d.s.w.s.ApiListingReferenceScanner [41] - Scanning for api listing references
+17:01:50.303 INFO  o.a.coyote.http11.Http11NioProtocol [173] - Starting ProtocolHandler ["http-nio-8080"]
+17:01:50.322 INFO  o.s.b.w.e.tomcat.TomcatWebServer [204] - Tomcat started on port(s): 8080 (http) with context path ''
+17:01:50.324 INFO  com.lxjn.hgd.HgdApplication [59] - Started HgdApplication in 3.6 seconds (JVM running for 4.535)
+17:02:01.599 INFO  o.a.tomcat.util.http.parser.Cookie [173] - A cookie header was received [1613715950] that contained an invalid cookie. That cookie will be ignored.
+ Note: further occurrences of this error will be logged at DEBUG level.
+17:02:01.605 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] [173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+17:02:01.605 INFO  o.s.web.servlet.DispatcherServlet [524] - Initializing Servlet 'dispatcherServlet'
+17:02:01.611 INFO  o.s.web.servlet.DispatcherServlet [546] - Completed initialization in 6 ms
+17:02:11.477 INFO  com.lxjn.hgd.config.UrlFilter [35] - 过滤器业务执行中...
+17:02:15.421 INFO  c.lxjn.hgd.config.GlobalInterceptor [29] - 请求预处理...
+17:02:15.424 INFO  c.lxjn.hgd.config.GlobalInterceptor [45] - 请求后处理...
+17:02:15.424 INFO  c.lxjn.hgd.config.GlobalInterceptor [58] - 请求结果返回后处理...
+17:02:15.431 INFO  c.lxjn.hgd.config.GlobalInterceptor [29] - 请求预处理...
+17:02:15.445 INFO  c.lxjn.hgd.config.GlobalInterceptor [45] - 请求后处理...
+17:02:15.450 INFO  c.lxjn.hgd.config.GlobalInterceptor [58] - 请求结果返回后处理...
+17:02:51.295 INFO  com.lxjn.hgd.config.UrlFilter [48] - 销毁过滤器...
+17:02:53.251 DEBUG o.h.v.m.ResourceBundleMessageInterpolator [89] - Loaded expression factory via original TCCL
+17:02:53.330 INFO  com.lxjn.hgd.HgdApplication [50] - Starting HgdApplication on longzhuang with PID 7660 (E:\project\hgd\target\classes started by longzhuang in E:\project\hgd)
+17:02:53.331 INFO  com.lxjn.hgd.HgdApplication [679] - The following profiles are active: dev
+17:02:53.370 INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor [227] - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+17:02:53.371 INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor [227] - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+17:02:54.415 INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [330] - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$1abd129c] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+17:02:54.710 INFO  o.s.b.w.e.tomcat.TomcatWebServer [90] - Tomcat initialized with port(s): 8080 (http)
+17:02:54.722 INFO  o.a.coyote.http11.Http11NioProtocol [173] - Initializing ProtocolHandler ["http-nio-8080"]
+17:02:54.730 INFO  o.a.catalina.core.StandardService [173] - Starting service [Tomcat]
+17:02:54.730 INFO  o.a.catalina.core.StandardEngine [173] - Starting Servlet engine: [Apache Tomcat/9.0.19]
+17:02:54.828 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] [173] - Initializing Spring embedded WebApplicationContext
+17:02:54.828 INFO  o.s.web.context.ContextLoader [296] - Root WebApplicationContext: initialization completed in 1457 ms
+17:02:54.874 INFO  com.lxjn.hgd.config.UrlFilter [30] - 过滤器初始化...
+17:02:56.188 INFO  com.lxjn.hgd.config.WebConfigurer [38] - 正在加载请求拦截器...
+17:02:56.278 INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping [69] - Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+17:02:56.297 INFO  com.lxjn.hgd.config.WebConfigurer [56] - 加载静态资源拦截器...
+17:02:56.364 INFO  o.s.b.d.a.OptionalLiveReloadServer [57] - LiveReload server is running on port 35729
+17:02:56.557 INFO  s.d.s.w.p.DocumentationPluginsBootstrapper [160] - Context refreshed
+17:02:56.571 INFO  s.d.s.w.p.DocumentationPluginsBootstrapper [163] - Found 1 custom documentation plugin(s)
+17:02:56.598 INFO  s.d.s.w.s.ApiListingReferenceScanner [41] - Scanning for api listing references
+17:02:56.709 INFO  o.a.coyote.http11.Http11NioProtocol [173] - Starting ProtocolHandler ["http-nio-8080"]
+17:02:56.726 INFO  o.s.b.w.e.tomcat.TomcatWebServer [204] - Tomcat started on port(s): 8080 (http) with context path ''
+17:02:56.729 INFO  com.lxjn.hgd.HgdApplication [59] - Started HgdApplication in 3.78 seconds (JVM running for 4.751)
+17:04:05.319 INFO  o.a.tomcat.util.http.parser.Cookie [173] - A cookie header was received [1613715950] that contained an invalid cookie. That cookie will be ignored.
+ Note: further occurrences of this error will be logged at DEBUG level.
+17:04:05.324 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] [173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+17:04:05.325 INFO  o.s.web.servlet.DispatcherServlet [524] - Initializing Servlet 'dispatcherServlet'
+17:04:05.332 INFO  o.s.web.servlet.DispatcherServlet [546] - Completed initialization in 7 ms
+17:04:05.336 INFO  com.lxjn.hgd.config.UrlFilter [35] - 过滤器业务执行中...
+17:04:05.344 INFO  c.lxjn.hgd.config.GlobalInterceptor [29] - 请求预处理...
+17:04:05.410 INFO  c.lxjn.hgd.config.GlobalInterceptor [45] - 请求后处理...
+17:04:05.410 INFO  c.lxjn.hgd.config.GlobalInterceptor [58] - 请求结果返回后处理...
+17:09:04.641 INFO  com.lxjn.hgd.config.UrlFilter [35] - 过滤器业务执行中...
+17:09:04.642 INFO  c.lxjn.hgd.config.GlobalInterceptor [29] - 请求预处理...
+17:09:04.644 INFO  c.lxjn.hgd.config.GlobalInterceptor [45] - 请求后处理...
+17:09:04.644 INFO  c.lxjn.hgd.config.GlobalInterceptor [58] - 请求结果返回后处理...
+17:14:59.726 INFO  com.lxjn.hgd.config.UrlFilter [48] - 销毁过滤器...
+17:14:59.856 INFO  com.lxjn.hgd.HgdApplication [50] - Starting HgdApplication on longzhuang with PID 7660 (E:\project\hgd\target\classes started by longzhuang in E:\project\hgd)
+17:14:59.856 INFO  com.lxjn.hgd.HgdApplication [679] - The following profiles are active: dev
+17:15:00.289 INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [330] - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$1abd129c] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+17:15:00.358 INFO  o.s.b.w.e.tomcat.TomcatWebServer [90] - Tomcat initialized with port(s): 8080 (http)
+17:15:00.359 INFO  o.a.coyote.http11.Http11NioProtocol [173] - Initializing ProtocolHandler ["http-nio-8080"]
+17:15:00.359 INFO  o.a.catalina.core.StandardService [173] - Starting service [Tomcat]
+17:15:00.359 INFO  o.a.catalina.core.StandardEngine [173] - Starting Servlet engine: [Apache Tomcat/9.0.19]
+17:15:00.373 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] [173] - Initializing Spring embedded WebApplicationContext
+17:15:00.373 INFO  o.s.web.context.ContextLoader [296] - Root WebApplicationContext: initialization completed in 514 ms
+17:15:00.382 INFO  com.lxjn.hgd.config.UrlFilter [30] - 过滤器初始化...
+17:15:00.902 INFO  com.lxjn.hgd.config.WebConfigurer [38] - 正在加载请求拦截器...
+17:15:00.931 INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping [69] - Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+17:15:00.935 INFO  com.lxjn.hgd.config.WebConfigurer [56] - 加载静态资源拦截器...
+17:15:00.953 INFO  o.s.b.d.a.OptionalLiveReloadServer [57] - LiveReload server is running on port 35729
+17:15:01.030 INFO  s.d.s.w.p.DocumentationPluginsBootstrapper [160] - Context refreshed
+17:15:01.031 INFO  s.d.s.w.p.DocumentationPluginsBootstrapper [163] - Found 1 custom documentation plugin(s)
+17:15:01.035 INFO  s.d.s.w.s.ApiListingReferenceScanner [41] - Scanning for api listing references
+17:15:01.050 INFO  o.a.coyote.http11.Http11NioProtocol [173] - Starting ProtocolHandler ["http-nio-8080"]
+17:15:01.052 INFO  o.s.b.w.e.tomcat.TomcatWebServer [204] - Tomcat started on port(s): 8080 (http) with context path ''
+17:15:01.053 INFO  com.lxjn.hgd.HgdApplication [59] - Started HgdApplication in 1.223 seconds (JVM running for 729.075)
+17:15:01.055 INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener [70] - Condition evaluation unchanged
+17:16:04.223 INFO  com.lxjn.hgd.config.UrlFilter [48] - 销毁过滤器...
+17:16:04.369 INFO  com.lxjn.hgd.HgdApplication [50] - Starting HgdApplication on longzhuang with PID 7660 (E:\project\hgd\target\classes started by longzhuang in E:\project\hgd)
+17:16:04.369 INFO  com.lxjn.hgd.HgdApplication [679] - The following profiles are active: dev
+17:16:04.818 INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [330] - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$1abd129c] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+17:16:04.892 INFO  o.s.b.w.e.tomcat.TomcatWebServer [90] - Tomcat initialized with port(s): 8080 (http)
+17:16:04.893 INFO  o.a.coyote.http11.Http11NioProtocol [173] - Initializing ProtocolHandler ["http-nio-8080"]
+17:16:04.893 INFO  o.a.catalina.core.StandardService [173] - Starting service [Tomcat]
+17:16:04.893 INFO  o.a.catalina.core.StandardEngine [173] - Starting Servlet engine: [Apache Tomcat/9.0.19]
+17:16:04.909 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] [173] - Initializing Spring embedded WebApplicationContext
+17:16:04.909 INFO  o.s.web.context.ContextLoader [296] - Root WebApplicationContext: initialization completed in 536 ms
+17:16:04.919 INFO  com.lxjn.hgd.config.UrlFilter [30] - 过滤器初始化...
+17:16:05.470 INFO  com.lxjn.hgd.config.WebConfigurer [38] - 正在加载请求拦截器...
+17:16:05.499 INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping [69] - Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+17:16:05.507 INFO  com.lxjn.hgd.config.WebConfigurer [56] - 加载静态资源拦截器...
+17:16:05.530 INFO  o.s.b.d.a.OptionalLiveReloadServer [57] - LiveReload server is running on port 35729
+17:16:05.612 INFO  s.d.s.w.p.DocumentationPluginsBootstrapper [160] - Context refreshed
+17:16:05.613 INFO  s.d.s.w.p.DocumentationPluginsBootstrapper [163] - Found 1 custom documentation plugin(s)
+17:16:05.618 INFO  s.d.s.w.s.ApiListingReferenceScanner [41] - Scanning for api listing references
+17:16:05.637 INFO  o.a.coyote.http11.Http11NioProtocol [173] - Starting ProtocolHandler ["http-nio-8080"]
+17:16:05.640 INFO  o.s.b.w.e.tomcat.TomcatWebServer [204] - Tomcat started on port(s): 8080 (http) with context path ''
+17:16:05.640 INFO  com.lxjn.hgd.HgdApplication [59] - Started HgdApplication in 1.297 seconds (JVM running for 793.662)
+17:16:05.642 INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener [70] - Condition evaluation unchanged
+17:16:33.482 INFO  com.lxjn.hgd.config.UrlFilter [48] - 销毁过滤器...
+17:16:33.631 INFO  com.lxjn.hgd.HgdApplication [50] - Starting HgdApplication on longzhuang with PID 7660 (E:\project\hgd\target\classes started by longzhuang in E:\project\hgd)
+17:16:33.631 INFO  com.lxjn.hgd.HgdApplication [679] - The following profiles are active: dev
+17:16:34.064 INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [330] - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$1abd129c] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+17:16:34.139 INFO  o.s.b.w.e.tomcat.TomcatWebServer [90] - Tomcat initialized with port(s): 8080 (http)
+17:16:34.140 INFO  o.a.coyote.http11.Http11NioProtocol [173] - Initializing ProtocolHandler ["http-nio-8080"]
+17:16:34.140 INFO  o.a.catalina.core.StandardService [173] - Starting service [Tomcat]
+17:16:34.140 INFO  o.a.catalina.core.StandardEngine [173] - Starting Servlet engine: [Apache Tomcat/9.0.19]
+17:16:34.155 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] [173] - Initializing Spring embedded WebApplicationContext
+17:16:34.156 INFO  o.s.web.context.ContextLoader [296] - Root WebApplicationContext: initialization completed in 522 ms
+17:16:34.166 INFO  com.lxjn.hgd.config.UrlFilter [30] - 过滤器初始化...
+17:16:34.720 INFO  com.lxjn.hgd.config.WebConfigurer [38] - 正在加载请求拦截器...
+17:16:34.747 INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping [69] - Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+17:16:34.752 INFO  com.lxjn.hgd.config.WebConfigurer [56] - 加载静态资源拦截器...
+17:16:34.770 INFO  o.s.b.d.a.OptionalLiveReloadServer [57] - LiveReload server is running on port 35729
+17:16:34.847 INFO  s.d.s.w.p.DocumentationPluginsBootstrapper [160] - Context refreshed
+17:16:34.848 INFO  s.d.s.w.p.DocumentationPluginsBootstrapper [163] - Found 1 custom documentation plugin(s)
+17:16:34.852 INFO  s.d.s.w.s.ApiListingReferenceScanner [41] - Scanning for api listing references
+17:16:34.866 INFO  o.a.coyote.http11.Http11NioProtocol [173] - Starting ProtocolHandler ["http-nio-8080"]
+17:16:34.868 INFO  o.s.b.w.e.tomcat.TomcatWebServer [204] - Tomcat started on port(s): 8080 (http) with context path ''
+17:16:34.868 INFO  com.lxjn.hgd.HgdApplication [59] - Started HgdApplication in 1.26 seconds (JVM running for 822.89)
+17:16:34.870 INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener [70] - Condition evaluation unchanged
+17:19:11.901 INFO  com.lxjn.hgd.config.UrlFilter [48] - 销毁过滤器...
+17:19:12.034 INFO  com.lxjn.hgd.HgdApplication [50] - Starting HgdApplication on longzhuang with PID 7660 (E:\project\hgd\target\classes started by longzhuang in E:\project\hgd)
+17:19:12.034 INFO  com.lxjn.hgd.HgdApplication [679] - The following profiles are active: dev
+17:19:12.472 INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [330] - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$1abd129c] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+17:19:12.547 INFO  o.s.b.w.e.tomcat.TomcatWebServer [90] - Tomcat initialized with port(s): 8080 (http)
+17:19:12.548 INFO  o.a.coyote.http11.Http11NioProtocol [173] - Initializing ProtocolHandler ["http-nio-8080"]
+17:19:12.548 INFO  o.a.catalina.core.StandardService [173] - Starting service [Tomcat]
+17:19:12.548 INFO  o.a.catalina.core.StandardEngine [173] - Starting Servlet engine: [Apache Tomcat/9.0.19]
+17:19:12.565 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] [173] - Initializing Spring embedded WebApplicationContext
+17:19:12.565 INFO  o.s.web.context.ContextLoader [296] - Root WebApplicationContext: initialization completed in 528 ms
+17:19:12.575 INFO  com.lxjn.hgd.config.UrlFilter [30] - 过滤器初始化...
+17:19:13.097 INFO  com.lxjn.hgd.config.WebConfigurer [38] - 正在加载请求拦截器...
+17:19:13.125 INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping [69] - Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+17:19:13.130 INFO  com.lxjn.hgd.config.WebConfigurer [56] - 加载静态资源拦截器...
+17:19:13.149 INFO  o.s.b.d.a.OptionalLiveReloadServer [57] - LiveReload server is running on port 35729
+17:19:13.229 INFO  s.d.s.w.p.DocumentationPluginsBootstrapper [160] - Context refreshed
+17:19:13.230 INFO  s.d.s.w.p.DocumentationPluginsBootstrapper [163] - Found 1 custom documentation plugin(s)
+17:19:13.234 INFO  s.d.s.w.s.ApiListingReferenceScanner [41] - Scanning for api listing references
+17:19:13.249 INFO  o.a.coyote.http11.Http11NioProtocol [173] - Starting ProtocolHandler ["http-nio-8080"]
+17:19:13.251 INFO  o.s.b.w.e.tomcat.TomcatWebServer [204] - Tomcat started on port(s): 8080 (http) with context path ''
+17:19:13.251 INFO  com.lxjn.hgd.HgdApplication [59] - Started HgdApplication in 1.24 seconds (JVM running for 981.273)
+17:19:13.253 INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener [70] - Condition evaluation unchanged
+17:20:47.883 INFO  com.lxjn.hgd.config.UrlFilter [48] - 销毁过滤器...
+17:20:48.027 INFO  com.lxjn.hgd.HgdApplication [50] - Starting HgdApplication on longzhuang with PID 7660 (E:\project\hgd\target\classes started by longzhuang in E:\project\hgd)
+17:20:48.027 INFO  com.lxjn.hgd.HgdApplication [679] - The following profiles are active: dev
+17:20:48.466 INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [330] - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$1abd129c] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+17:20:48.541 INFO  o.s.b.w.e.tomcat.TomcatWebServer [90] - Tomcat initialized with port(s): 8080 (http)
+17:20:48.541 INFO  o.a.coyote.http11.Http11NioProtocol [173] - Initializing ProtocolHandler ["http-nio-8080"]
+17:20:48.541 INFO  o.a.catalina.core.StandardService [173] - Starting service [Tomcat]
+17:20:48.542 INFO  o.a.catalina.core.StandardEngine [173] - Starting Servlet engine: [Apache Tomcat/9.0.19]
+17:20:48.557 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] [173] - Initializing Spring embedded WebApplicationContext
+17:20:48.557 INFO  o.s.web.context.ContextLoader [296] - Root WebApplicationContext: initialization completed in 527 ms
+17:20:48.566 INFO  com.lxjn.hgd.config.UrlFilter [30] - 过滤器初始化...
+17:20:49.069 INFO  com.lxjn.hgd.config.WebConfigurer [38] - 正在加载请求拦截器...
+17:20:49.098 INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping [69] - Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+17:20:49.103 INFO  com.lxjn.hgd.config.WebConfigurer [56] - 加载静态资源拦截器...
+17:20:49.127 INFO  o.s.b.d.a.OptionalLiveReloadServer [57] - LiveReload server is running on port 35729
+17:20:49.224 INFO  s.d.s.w.p.DocumentationPluginsBootstrapper [160] - Context refreshed
+17:20:49.226 INFO  s.d.s.w.p.DocumentationPluginsBootstrapper [163] - Found 1 custom documentation plugin(s)
+17:20:49.237 INFO  s.d.s.w.s.ApiListingReferenceScanner [41] - Scanning for api listing references
+17:20:49.254 INFO  o.a.coyote.http11.Http11NioProtocol [173] - Starting ProtocolHandler ["http-nio-8080"]
+17:20:49.258 INFO  o.s.b.w.e.tomcat.TomcatWebServer [204] - Tomcat started on port(s): 8080 (http) with context path ''
+17:20:49.258 INFO  com.lxjn.hgd.HgdApplication [59] - Started HgdApplication in 1.26 seconds (JVM running for 1077.28)
+17:20:49.260 INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener [70] - Condition evaluation unchanged
+17:21:12.893 INFO  com.lxjn.hgd.config.UrlFilter [48] - 销毁过滤器...
+17:21:13.050 INFO  com.lxjn.hgd.HgdApplication [50] - Starting HgdApplication on longzhuang with PID 7660 (E:\project\hgd\target\classes started by longzhuang in E:\project\hgd)
+17:21:13.051 INFO  com.lxjn.hgd.HgdApplication [679] - The following profiles are active: dev
+17:21:13.441 INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [330] - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$1abd129c] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+17:21:13.505 INFO  o.s.b.w.e.tomcat.TomcatWebServer [90] - Tomcat initialized with port(s): 8080 (http)
+17:21:13.506 INFO  o.a.coyote.http11.Http11NioProtocol [173] - Initializing ProtocolHandler ["http-nio-8080"]
+17:21:13.506 INFO  o.a.catalina.core.StandardService [173] - Starting service [Tomcat]
+17:21:13.506 INFO  o.a.catalina.core.StandardEngine [173] - Starting Servlet engine: [Apache Tomcat/9.0.19]
+17:21:13.520 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] [173] - Initializing Spring embedded WebApplicationContext
+17:21:13.520 INFO  o.s.web.context.ContextLoader [296] - Root WebApplicationContext: initialization completed in 467 ms
+17:21:13.529 INFO  com.lxjn.hgd.config.UrlFilter [30] - 过滤器初始化...
+17:21:13.960 INFO  com.lxjn.hgd.config.WebConfigurer [38] - 正在加载请求拦截器...
+17:21:13.987 INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping [69] - Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+17:21:13.992 INFO  com.lxjn.hgd.config.WebConfigurer [56] - 加载静态资源拦截器...
+17:21:14.009 INFO  o.s.b.d.a.OptionalLiveReloadServer [57] - LiveReload server is running on port 35729
+17:21:14.081 INFO  s.d.s.w.p.DocumentationPluginsBootstrapper [160] - Context refreshed
+17:21:14.081 INFO  s.d.s.w.p.DocumentationPluginsBootstrapper [163] - Found 1 custom documentation plugin(s)
+17:21:14.086 INFO  s.d.s.w.s.ApiListingReferenceScanner [41] - Scanning for api listing references
+17:21:14.098 INFO  o.a.coyote.http11.Http11NioProtocol [173] - Starting ProtocolHandler ["http-nio-8080"]
+17:21:14.101 INFO  o.s.b.w.e.tomcat.TomcatWebServer [204] - Tomcat started on port(s): 8080 (http) with context path ''
+17:21:14.101 INFO  com.lxjn.hgd.HgdApplication [59] - Started HgdApplication in 1.073 seconds (JVM running for 1102.123)
+17:21:14.103 INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener [70] - Condition evaluation unchanged
+17:22:57.595 INFO  com.lxjn.hgd.config.UrlFilter [48] - 销毁过滤器...
+17:22:57.712 INFO  com.lxjn.hgd.HgdApplication [50] - Starting HgdApplication on longzhuang with PID 7660 (E:\project\hgd\target\classes started by longzhuang in E:\project\hgd)
+17:22:57.712 INFO  com.lxjn.hgd.HgdApplication [679] - The following profiles are active: dev
+17:22:58.168 INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [330] - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$1abd129c] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+17:22:58.240 INFO  o.s.b.w.e.tomcat.TomcatWebServer [90] - Tomcat initialized with port(s): 8080 (http)
+17:22:58.241 INFO  o.a.coyote.http11.Http11NioProtocol [173] - Initializing ProtocolHandler ["http-nio-8080"]
+17:22:58.241 INFO  o.a.catalina.core.StandardService [173] - Starting service [Tomcat]
+17:22:58.241 INFO  o.a.catalina.core.StandardEngine [173] - Starting Servlet engine: [Apache Tomcat/9.0.19]
+17:22:58.259 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] [173] - Initializing Spring embedded WebApplicationContext
+17:22:58.259 INFO  o.s.web.context.ContextLoader [296] - Root WebApplicationContext: initialization completed in 544 ms
+17:22:58.268 INFO  com.lxjn.hgd.config.UrlFilter [30] - 过滤器初始化...
+17:22:58.762 INFO  com.lxjn.hgd.config.WebConfigurer [38] - 正在加载请求拦截器...
+17:22:58.793 INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping [69] - Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+17:22:58.799 INFO  com.lxjn.hgd.config.WebConfigurer [56] - 加载静态资源拦截器...
+17:22:58.818 INFO  o.s.b.d.a.OptionalLiveReloadServer [57] - LiveReload server is running on port 35729
+17:22:58.898 INFO  s.d.s.w.p.DocumentationPluginsBootstrapper [160] - Context refreshed
+17:22:58.899 INFO  s.d.s.w.p.DocumentationPluginsBootstrapper [163] - Found 1 custom documentation plugin(s)
+17:22:58.902 INFO  s.d.s.w.s.ApiListingReferenceScanner [41] - Scanning for api listing references
+17:22:58.915 INFO  o.a.coyote.http11.Http11NioProtocol [173] - Starting ProtocolHandler ["http-nio-8080"]
+17:22:58.918 INFO  o.s.b.w.e.tomcat.TomcatWebServer [204] - Tomcat started on port(s): 8080 (http) with context path ''
+17:22:58.918 INFO  com.lxjn.hgd.HgdApplication [59] - Started HgdApplication in 1.233 seconds (JVM running for 1206.941)
+17:22:58.921 INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener [70] - Condition evaluation unchanged
+17:24:12.305 INFO  com.lxjn.hgd.config.UrlFilter [48] - 销毁过滤器...
+17:24:12.524 INFO  com.lxjn.hgd.HgdApplication [50] - Starting HgdApplication on longzhuang with PID 7660 (E:\project\hgd\target\classes started by longzhuang in E:\project\hgd)
+17:24:12.524 INFO  com.lxjn.hgd.HgdApplication [679] - The following profiles are active: dev
+17:24:12.964 INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [330] - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$1abd129c] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+17:24:13.043 INFO  o.s.b.w.e.tomcat.TomcatWebServer [90] - Tomcat initialized with port(s): 8080 (http)
+17:24:13.044 INFO  o.a.coyote.http11.Http11NioProtocol [173] - Initializing ProtocolHandler ["http-nio-8080"]
+17:24:13.044 INFO  o.a.catalina.core.StandardService [173] - Starting service [Tomcat]
+17:24:13.044 INFO  o.a.catalina.core.StandardEngine [173] - Starting Servlet engine: [Apache Tomcat/9.0.19]
+17:24:13.060 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] [173] - Initializing Spring embedded WebApplicationContext
+17:24:13.060 INFO  o.s.web.context.ContextLoader [296] - Root WebApplicationContext: initialization completed in 533 ms
+17:24:13.070 INFO  com.lxjn.hgd.config.UrlFilter [30] - 过滤器初始化...
+17:24:13.587 INFO  com.lxjn.hgd.config.WebConfigurer [38] - 正在加载请求拦截器...
+17:24:13.616 INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping [69] - Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+17:24:13.621 INFO  com.lxjn.hgd.config.WebConfigurer [56] - 加载静态资源拦截器...
+17:24:13.641 INFO  o.s.b.d.a.OptionalLiveReloadServer [57] - LiveReload server is running on port 35729
+17:24:13.729 INFO  s.d.s.w.p.DocumentationPluginsBootstrapper [160] - Context refreshed
+17:24:13.730 INFO  s.d.s.w.p.DocumentationPluginsBootstrapper [163] - Found 1 custom documentation plugin(s)
+17:24:13.734 INFO  s.d.s.w.s.ApiListingReferenceScanner [41] - Scanning for api listing references
+17:24:13.748 INFO  o.a.coyote.http11.Http11NioProtocol [173] - Starting ProtocolHandler ["http-nio-8080"]
+17:24:13.750 INFO  o.s.b.w.e.tomcat.TomcatWebServer [204] - Tomcat started on port(s): 8080 (http) with context path ''
+17:24:13.751 INFO  com.lxjn.hgd.HgdApplication [59] - Started HgdApplication in 1.25 seconds (JVM running for 1281.773)
+17:24:13.753 INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener [70] - Condition evaluation unchanged
+17:25:18.918 INFO  com.lxjn.hgd.config.UrlFilter [48] - 销毁过滤器...
+17:25:19.089 INFO  com.lxjn.hgd.HgdApplication [50] - Starting HgdApplication on longzhuang with PID 7660 (E:\project\hgd\target\classes started by longzhuang in E:\project\hgd)
+17:25:19.090 INFO  com.lxjn.hgd.HgdApplication [679] - The following profiles are active: dev
+17:25:19.533 INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [330] - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$1abd129c] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+17:25:19.608 INFO  o.s.b.w.e.tomcat.TomcatWebServer [90] - Tomcat initialized with port(s): 8080 (http)
+17:25:19.609 INFO  o.a.coyote.http11.Http11NioProtocol [173] - Initializing ProtocolHandler ["http-nio-8080"]
+17:25:19.609 INFO  o.a.catalina.core.StandardService [173] - Starting service [Tomcat]
+17:25:19.609 INFO  o.a.catalina.core.StandardEngine [173] - Starting Servlet engine: [Apache Tomcat/9.0.19]
+17:25:19.624 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] [173] - Initializing Spring embedded WebApplicationContext
+17:25:19.624 INFO  o.s.web.context.ContextLoader [296] - Root WebApplicationContext: initialization completed in 532 ms
+17:25:19.634 INFO  com.lxjn.hgd.config.UrlFilter [30] - 过滤器初始化...
+17:25:20.121 INFO  com.lxjn.hgd.config.WebConfigurer [38] - 正在加载请求拦截器...
+17:25:20.150 INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping [69] - Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+17:25:20.155 INFO  com.lxjn.hgd.config.WebConfigurer [56] - 加载静态资源拦截器...
+17:25:20.175 INFO  o.s.b.d.a.OptionalLiveReloadServer [57] - LiveReload server is running on port 35729
+17:25:20.266 INFO  s.d.s.w.p.DocumentationPluginsBootstrapper [160] - Context refreshed
+17:25:20.267 INFO  s.d.s.w.p.DocumentationPluginsBootstrapper [163] - Found 1 custom documentation plugin(s)
+17:25:20.272 INFO  s.d.s.w.s.ApiListingReferenceScanner [41] - Scanning for api listing references
+17:25:20.287 INFO  o.a.coyote.http11.Http11NioProtocol [173] - Starting ProtocolHandler ["http-nio-8080"]
+17:25:20.289 INFO  o.s.b.w.e.tomcat.TomcatWebServer [204] - Tomcat started on port(s): 8080 (http) with context path ''
+17:25:20.290 INFO  com.lxjn.hgd.HgdApplication [59] - Started HgdApplication in 1.223 seconds (JVM running for 1348.312)
+17:25:20.292 INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener [70] - Condition evaluation unchanged
+17:25:57.262 INFO  com.lxjn.hgd.config.UrlFilter [48] - 销毁过滤器...
+17:25:57.443 INFO  com.lxjn.hgd.HgdApplication [50] - Starting HgdApplication on longzhuang with PID 7660 (E:\project\hgd\target\classes started by longzhuang in E:\project\hgd)
+17:25:57.443 INFO  com.lxjn.hgd.HgdApplication [679] - The following profiles are active: dev
+17:25:57.862 INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [330] - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$1abd129c] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+17:25:57.931 INFO  o.s.b.w.e.tomcat.TomcatWebServer [90] - Tomcat initialized with port(s): 8080 (http)
+17:25:57.932 INFO  o.a.coyote.http11.Http11NioProtocol [173] - Initializing ProtocolHandler ["http-nio-8080"]
+17:25:57.932 INFO  o.a.catalina.core.StandardService [173] - Starting service [Tomcat]
+17:25:57.932 INFO  o.a.catalina.core.StandardEngine [173] - Starting Servlet engine: [Apache Tomcat/9.0.19]
+17:25:57.946 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] [173] - Initializing Spring embedded WebApplicationContext
+17:25:57.946 INFO  o.s.web.context.ContextLoader [296] - Root WebApplicationContext: initialization completed in 500 ms
+17:25:57.955 INFO  com.lxjn.hgd.config.UrlFilter [30] - 过滤器初始化...
+17:25:58.489 INFO  com.lxjn.hgd.config.WebConfigurer [38] - 正在加载请求拦截器...
+17:25:58.518 INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping [69] - Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+17:25:58.523 INFO  com.lxjn.hgd.config.WebConfigurer [56] - 加载静态资源拦截器...
+17:25:58.542 INFO  o.s.b.d.a.OptionalLiveReloadServer [57] - LiveReload server is running on port 35729
+17:25:58.625 INFO  s.d.s.w.p.DocumentationPluginsBootstrapper [160] - Context refreshed
+17:25:58.626 INFO  s.d.s.w.p.DocumentationPluginsBootstrapper [163] - Found 1 custom documentation plugin(s)
+17:25:58.630 INFO  s.d.s.w.s.ApiListingReferenceScanner [41] - Scanning for api listing references
+17:25:58.644 INFO  o.a.coyote.http11.Http11NioProtocol [173] - Starting ProtocolHandler ["http-nio-8080"]
+17:25:58.647 INFO  o.s.b.w.e.tomcat.TomcatWebServer [204] - Tomcat started on port(s): 8080 (http) with context path ''
+17:25:58.647 INFO  com.lxjn.hgd.HgdApplication [59] - Started HgdApplication in 1.23 seconds (JVM running for 1386.669)
+17:25:58.649 INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener [70] - Condition evaluation unchanged
+17:26:59.873 INFO  com.lxjn.hgd.config.UrlFilter [48] - 销毁过滤器...
+17:27:00.043 INFO  com.lxjn.hgd.HgdApplication [50] - Starting HgdApplication on longzhuang with PID 7660 (E:\project\hgd\target\classes started by longzhuang in E:\project\hgd)
+17:27:00.043 INFO  com.lxjn.hgd.HgdApplication [679] - The following profiles are active: dev
+17:27:00.481 INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [330] - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$1abd129c] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+17:27:00.551 INFO  o.s.b.w.e.tomcat.TomcatWebServer [90] - Tomcat initialized with port(s): 8080 (http)
+17:27:00.552 INFO  o.a.coyote.http11.Http11NioProtocol [173] - Initializing ProtocolHandler ["http-nio-8080"]
+17:27:00.552 INFO  o.a.catalina.core.StandardService [173] - Starting service [Tomcat]
+17:27:00.552 INFO  o.a.catalina.core.StandardEngine [173] - Starting Servlet engine: [Apache Tomcat/9.0.19]
+17:27:00.569 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] [173] - Initializing Spring embedded WebApplicationContext
+17:27:00.569 INFO  o.s.web.context.ContextLoader [296] - Root WebApplicationContext: initialization completed in 522 ms
+17:27:00.578 INFO  com.lxjn.hgd.config.UrlFilter [30] - 过滤器初始化...
+17:27:01.034 INFO  com.lxjn.hgd.config.WebConfigurer [38] - 正在加载请求拦截器...
+17:27:01.067 INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping [69] - Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+17:27:01.073 INFO  com.lxjn.hgd.config.WebConfigurer [56] - 加载静态资源拦截器...
+17:27:01.096 INFO  o.s.b.d.a.OptionalLiveReloadServer [57] - LiveReload server is running on port 35729
+17:27:01.177 INFO  s.d.s.w.p.DocumentationPluginsBootstrapper [160] - Context refreshed
+17:27:01.177 INFO  s.d.s.w.p.DocumentationPluginsBootstrapper [163] - Found 1 custom documentation plugin(s)
+17:27:01.181 INFO  s.d.s.w.s.ApiListingReferenceScanner [41] - Scanning for api listing references
+17:27:01.196 INFO  o.a.coyote.http11.Http11NioProtocol [173] - Starting ProtocolHandler ["http-nio-8080"]
+17:27:01.199 INFO  o.s.b.w.e.tomcat.TomcatWebServer [204] - Tomcat started on port(s): 8080 (http) with context path ''
+17:27:01.200 INFO  com.lxjn.hgd.HgdApplication [59] - Started HgdApplication in 1.181 seconds (JVM running for 1449.222)
+17:27:01.202 INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener [70] - Condition evaluation unchanged
+17:28:40.056 INFO  com.lxjn.hgd.config.UrlFilter [48] - 销毁过滤器...
+17:28:40.267 INFO  com.lxjn.hgd.HgdApplication [50] - Starting HgdApplication on longzhuang with PID 7660 (E:\project\hgd\target\classes started by longzhuang in E:\project\hgd)
+17:28:40.268 INFO  com.lxjn.hgd.HgdApplication [679] - The following profiles are active: dev
+17:28:40.775 INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [330] - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$1abd129c] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+17:28:40.845 INFO  o.s.b.w.e.tomcat.TomcatWebServer [90] - Tomcat initialized with port(s): 8080 (http)
+17:28:40.846 INFO  o.a.coyote.http11.Http11NioProtocol [173] - Initializing ProtocolHandler ["http-nio-8080"]
+17:28:40.846 INFO  o.a.catalina.core.StandardService [173] - Starting service [Tomcat]
+17:28:40.847 INFO  o.a.catalina.core.StandardEngine [173] - Starting Servlet engine: [Apache Tomcat/9.0.19]
+17:28:40.860 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] [173] - Initializing Spring embedded WebApplicationContext
+17:28:40.860 INFO  o.s.web.context.ContextLoader [296] - Root WebApplicationContext: initialization completed in 589 ms
+17:28:40.870 INFO  com.lxjn.hgd.config.UrlFilter [30] - 过滤器初始化...
+17:28:41.355 INFO  com.lxjn.hgd.config.WebConfigurer [38] - 正在加载请求拦截器...
+17:28:41.384 INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping [69] - Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+17:28:41.390 INFO  com.lxjn.hgd.config.WebConfigurer [56] - 加载静态资源拦截器...
+17:28:41.410 INFO  o.s.b.d.a.OptionalLiveReloadServer [57] - LiveReload server is running on port 35729
+17:28:41.493 INFO  s.d.s.w.p.DocumentationPluginsBootstrapper [160] - Context refreshed
+17:28:41.494 INFO  s.d.s.w.p.DocumentationPluginsBootstrapper [163] - Found 1 custom documentation plugin(s)
+17:28:41.499 INFO  s.d.s.w.s.ApiListingReferenceScanner [41] - Scanning for api listing references
+17:28:41.517 INFO  o.a.coyote.http11.Http11NioProtocol [173] - Starting ProtocolHandler ["http-nio-8080"]
+17:28:41.520 INFO  o.s.b.w.e.tomcat.TomcatWebServer [204] - Tomcat started on port(s): 8080 (http) with context path ''
+17:28:41.520 INFO  com.lxjn.hgd.HgdApplication [59] - Started HgdApplication in 1.303 seconds (JVM running for 1549.542)
+17:28:41.522 INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener [70] - Condition evaluation unchanged
+17:29:57.824 INFO  com.lxjn.hgd.config.UrlFilter [48] - 销毁过滤器...
+17:29:57.967 INFO  com.lxjn.hgd.HgdApplication [50] - Starting HgdApplication on longzhuang with PID 7660 (E:\project\hgd\target\classes started by longzhuang in E:\project\hgd)
+17:29:57.967 INFO  com.lxjn.hgd.HgdApplication [679] - The following profiles are active: dev
+17:29:58.400 INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [330] - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$1abd129c] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+17:29:58.476 INFO  o.s.b.w.e.tomcat.TomcatWebServer [90] - Tomcat initialized with port(s): 8080 (http)
+17:29:58.477 INFO  o.a.coyote.http11.Http11NioProtocol [173] - Initializing ProtocolHandler ["http-nio-8080"]
+17:29:58.477 INFO  o.a.catalina.core.StandardService [173] - Starting service [Tomcat]
+17:29:58.477 INFO  o.a.catalina.core.StandardEngine [173] - Starting Servlet engine: [Apache Tomcat/9.0.19]
+17:29:58.494 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] [173] - Initializing Spring embedded WebApplicationContext
+17:29:58.494 INFO  o.s.web.context.ContextLoader [296] - Root WebApplicationContext: initialization completed in 524 ms
+17:29:58.503 INFO  com.lxjn.hgd.config.UrlFilter [30] - 过滤器初始化...
+17:29:59.008 INFO  com.lxjn.hgd.config.WebConfigurer [38] - 正在加载请求拦截器...
+17:29:59.042 INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping [69] - Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+17:29:59.047 INFO  com.lxjn.hgd.config.WebConfigurer [56] - 加载静态资源拦截器...
+17:29:59.064 INFO  o.s.b.d.a.OptionalLiveReloadServer [57] - LiveReload server is running on port 35729
+17:29:59.137 INFO  s.d.s.w.p.DocumentationPluginsBootstrapper [160] - Context refreshed
+17:29:59.138 INFO  s.d.s.w.p.DocumentationPluginsBootstrapper [163] - Found 1 custom documentation plugin(s)
+17:29:59.142 INFO  s.d.s.w.s.ApiListingReferenceScanner [41] - Scanning for api listing references
+17:29:59.155 INFO  o.a.coyote.http11.Http11NioProtocol [173] - Starting ProtocolHandler ["http-nio-8080"]
+17:29:59.157 INFO  o.s.b.w.e.tomcat.TomcatWebServer [204] - Tomcat started on port(s): 8080 (http) with context path ''
+17:29:59.158 INFO  com.lxjn.hgd.HgdApplication [59] - Started HgdApplication in 1.214 seconds (JVM running for 1627.179)
+17:29:59.160 INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener [70] - Condition evaluation unchanged
+17:30:43.150 INFO  com.lxjn.hgd.config.UrlFilter [48] - 销毁过滤器...
+17:30:43.306 INFO  com.lxjn.hgd.HgdApplication [50] - Starting HgdApplication on longzhuang with PID 7660 (E:\project\hgd\target\classes started by longzhuang in E:\project\hgd)
+17:30:43.306 INFO  com.lxjn.hgd.HgdApplication [679] - The following profiles are active: dev
+17:30:43.722 INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [330] - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$1abd129c] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+17:30:43.802 INFO  o.s.b.w.e.tomcat.TomcatWebServer [90] - Tomcat initialized with port(s): 8080 (http)
+17:30:43.802 INFO  o.a.coyote.http11.Http11NioProtocol [173] - Initializing ProtocolHandler ["http-nio-8080"]
+17:30:43.803 INFO  o.a.catalina.core.StandardService [173] - Starting service [Tomcat]
+17:30:43.803 INFO  o.a.catalina.core.StandardEngine [173] - Starting Servlet engine: [Apache Tomcat/9.0.19]
+17:30:43.816 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] [173] - Initializing Spring embedded WebApplicationContext
+17:30:43.817 INFO  o.s.web.context.ContextLoader [296] - Root WebApplicationContext: initialization completed in 508 ms
+17:30:43.825 INFO  com.lxjn.hgd.config.UrlFilter [30] - 过滤器初始化...
+17:30:44.317 INFO  com.lxjn.hgd.config.WebConfigurer [38] - 正在加载请求拦截器...
+17:30:44.348 INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping [69] - Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+17:30:44.353 INFO  com.lxjn.hgd.config.WebConfigurer [56] - 加载静态资源拦截器...
+17:30:44.374 INFO  o.s.b.d.a.OptionalLiveReloadServer [57] - LiveReload server is running on port 35729
+17:30:44.455 INFO  s.d.s.w.p.DocumentationPluginsBootstrapper [160] - Context refreshed
+17:30:44.456 INFO  s.d.s.w.p.DocumentationPluginsBootstrapper [163] - Found 1 custom documentation plugin(s)
+17:30:44.460 INFO  s.d.s.w.s.ApiListingReferenceScanner [41] - Scanning for api listing references
+17:30:44.474 INFO  o.a.coyote.http11.Http11NioProtocol [173] - Starting ProtocolHandler ["http-nio-8080"]
+17:30:44.476 INFO  o.s.b.w.e.tomcat.TomcatWebServer [204] - Tomcat started on port(s): 8080 (http) with context path ''
+17:30:44.477 INFO  com.lxjn.hgd.HgdApplication [59] - Started HgdApplication in 1.197 seconds (JVM running for 1672.498)
+17:30:44.478 INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener [70] - Condition evaluation unchanged
+17:31:19.411 INFO  com.lxjn.hgd.config.UrlFilter [48] - 销毁过滤器...
+17:31:19.587 INFO  com.lxjn.hgd.HgdApplication [50] - Starting HgdApplication on longzhuang with PID 7660 (E:\project\hgd\target\classes started by longzhuang in E:\project\hgd)
+17:31:19.587 INFO  com.lxjn.hgd.HgdApplication [679] - The following profiles are active: dev
+17:31:20.044 INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [330] - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$1abd129c] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+17:31:20.128 INFO  o.s.b.w.e.tomcat.TomcatWebServer [90] - Tomcat initialized with port(s): 8080 (http)
+17:31:20.129 INFO  o.a.coyote.http11.Http11NioProtocol [173] - Initializing ProtocolHandler ["http-nio-8080"]
+17:31:20.129 INFO  o.a.catalina.core.StandardService [173] - Starting service [Tomcat]
+17:31:20.129 INFO  o.a.catalina.core.StandardEngine [173] - Starting Servlet engine: [Apache Tomcat/9.0.19]
+17:31:20.147 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] [173] - Initializing Spring embedded WebApplicationContext
+17:31:20.147 INFO  o.s.web.context.ContextLoader [296] - Root WebApplicationContext: initialization completed in 557 ms
+17:31:20.157 INFO  com.lxjn.hgd.config.UrlFilter [30] - 过滤器初始化...
+17:31:20.653 INFO  com.lxjn.hgd.config.WebConfigurer [38] - 正在加载请求拦截器...
+17:31:20.693 INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping [69] - Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+17:31:20.698 INFO  com.lxjn.hgd.config.WebConfigurer [56] - 加载静态资源拦截器...
+17:31:20.720 INFO  o.s.b.d.a.OptionalLiveReloadServer [57] - LiveReload server is running on port 35729
+17:31:20.813 INFO  s.d.s.w.p.DocumentationPluginsBootstrapper [160] - Context refreshed
+17:31:20.814 INFO  s.d.s.w.p.DocumentationPluginsBootstrapper [163] - Found 1 custom documentation plugin(s)
+17:31:20.818 INFO  s.d.s.w.s.ApiListingReferenceScanner [41] - Scanning for api listing references
+17:31:20.835 INFO  o.a.coyote.http11.Http11NioProtocol [173] - Starting ProtocolHandler ["http-nio-8080"]
+17:31:20.837 INFO  o.s.b.w.e.tomcat.TomcatWebServer [204] - Tomcat started on port(s): 8080 (http) with context path ''
+17:31:20.838 INFO  com.lxjn.hgd.HgdApplication [59] - Started HgdApplication in 1.28 seconds (JVM running for 1708.86)
+17:31:20.840 INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener [70] - Condition evaluation unchanged
+17:33:15.442 INFO  com.lxjn.hgd.config.UrlFilter [48] - 销毁过滤器...
+17:33:15.727 INFO  com.lxjn.hgd.HgdApplication [50] - Starting HgdApplication on longzhuang with PID 7660 (E:\project\hgd\target\classes started by longzhuang in E:\project\hgd)
+17:33:15.727 INFO  com.lxjn.hgd.HgdApplication [679] - The following profiles are active: dev
+17:33:16.172 INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [330] - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$1abd129c] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+17:33:16.246 INFO  o.s.b.w.e.tomcat.TomcatWebServer [90] - Tomcat initialized with port(s): 8080 (http)
+17:33:16.247 INFO  o.a.coyote.http11.Http11NioProtocol [173] - Initializing ProtocolHandler ["http-nio-8080"]
+17:33:16.247 INFO  o.a.catalina.core.StandardService [173] - Starting service [Tomcat]
+17:33:16.247 INFO  o.a.catalina.core.StandardEngine [173] - Starting Servlet engine: [Apache Tomcat/9.0.19]
+17:33:16.262 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] [173] - Initializing Spring embedded WebApplicationContext
+17:33:16.262 INFO  o.s.web.context.ContextLoader [296] - Root WebApplicationContext: initialization completed in 533 ms
+17:33:16.272 INFO  com.lxjn.hgd.config.UrlFilter [30] - 过滤器初始化...
+17:33:16.749 INFO  com.lxjn.hgd.config.WebConfigurer [38] - 正在加载请求拦截器...
+17:33:16.778 INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping [69] - Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+17:33:16.788 INFO  com.lxjn.hgd.config.WebConfigurer [56] - 加载静态资源拦截器...
+17:33:16.810 INFO  o.s.b.d.a.OptionalLiveReloadServer [57] - LiveReload server is running on port 35729
+17:33:16.892 INFO  s.d.s.w.p.DocumentationPluginsBootstrapper [160] - Context refreshed
+17:33:16.893 INFO  s.d.s.w.p.DocumentationPluginsBootstrapper [163] - Found 1 custom documentation plugin(s)
+17:33:16.897 INFO  s.d.s.w.s.ApiListingReferenceScanner [41] - Scanning for api listing references
+17:33:16.912 INFO  o.a.coyote.http11.Http11NioProtocol [173] - Starting ProtocolHandler ["http-nio-8080"]
+17:33:16.914 INFO  o.s.b.w.e.tomcat.TomcatWebServer [204] - Tomcat started on port(s): 8080 (http) with context path ''
+17:33:16.915 INFO  com.lxjn.hgd.HgdApplication [59] - Started HgdApplication in 1.21 seconds (JVM running for 1824.937)
+17:33:16.917 INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener [70] - Condition evaluation unchanged
+17:34:50.290 INFO  com.lxjn.hgd.config.UrlFilter [48] - 销毁过滤器...
+17:34:50.480 INFO  com.lxjn.hgd.HgdApplication [50] - Starting HgdApplication on longzhuang with PID 7660 (E:\project\hgd\target\classes started by longzhuang in E:\project\hgd)
+17:34:50.480 INFO  com.lxjn.hgd.HgdApplication [679] - The following profiles are active: dev
+17:34:50.895 INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [330] - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$1abd129c] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+17:34:50.962 INFO  o.s.b.w.e.tomcat.TomcatWebServer [90] - Tomcat initialized with port(s): 8080 (http)
+17:34:50.963 INFO  o.a.coyote.http11.Http11NioProtocol [173] - Initializing ProtocolHandler ["http-nio-8080"]
+17:34:50.963 INFO  o.a.catalina.core.StandardService [173] - Starting service [Tomcat]
+17:34:50.963 INFO  o.a.catalina.core.StandardEngine [173] - Starting Servlet engine: [Apache Tomcat/9.0.19]
+17:34:50.978 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] [173] - Initializing Spring embedded WebApplicationContext
+17:34:50.978 INFO  o.s.web.context.ContextLoader [296] - Root WebApplicationContext: initialization completed in 496 ms
+17:34:50.988 INFO  com.lxjn.hgd.config.UrlFilter [30] - 过滤器初始化...
+17:34:51.484 INFO  com.lxjn.hgd.config.WebConfigurer [38] - 正在加载请求拦截器...
+17:34:51.511 INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping [69] - Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+17:34:51.516 INFO  com.lxjn.hgd.config.WebConfigurer [56] - 加载静态资源拦截器...
+17:34:51.535 INFO  o.s.b.d.a.OptionalLiveReloadServer [57] - LiveReload server is running on port 35729
+17:34:51.615 INFO  s.d.s.w.p.DocumentationPluginsBootstrapper [160] - Context refreshed
+17:34:51.616 INFO  s.d.s.w.p.DocumentationPluginsBootstrapper [163] - Found 1 custom documentation plugin(s)
+17:34:51.620 INFO  s.d.s.w.s.ApiListingReferenceScanner [41] - Scanning for api listing references
+17:34:51.634 INFO  o.a.coyote.http11.Http11NioProtocol [173] - Starting ProtocolHandler ["http-nio-8080"]
+17:34:51.637 INFO  o.s.b.w.e.tomcat.TomcatWebServer [204] - Tomcat started on port(s): 8080 (http) with context path ''
+17:34:51.638 INFO  com.lxjn.hgd.HgdApplication [59] - Started HgdApplication in 1.179 seconds (JVM running for 1919.659)
+17:34:51.640 INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener [70] - Condition evaluation unchanged
+17:35:40.698 INFO  com.lxjn.hgd.config.UrlFilter [48] - 销毁过滤器...
+17:35:40.901 INFO  com.lxjn.hgd.HgdApplication [50] - Starting HgdApplication on longzhuang with PID 7660 (E:\project\hgd\target\classes started by longzhuang in E:\project\hgd)
+17:35:40.901 INFO  com.lxjn.hgd.HgdApplication [679] - The following profiles are active: dev
+17:35:41.394 INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [330] - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$1abd129c] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+17:35:41.470 INFO  o.s.b.w.e.tomcat.TomcatWebServer [90] - Tomcat initialized with port(s): 8080 (http)
+17:35:41.471 INFO  o.a.coyote.http11.Http11NioProtocol [173] - Initializing ProtocolHandler ["http-nio-8080"]
+17:35:41.471 INFO  o.a.catalina.core.StandardService [173] - Starting service [Tomcat]
+17:35:41.471 INFO  o.a.catalina.core.StandardEngine [173] - Starting Servlet engine: [Apache Tomcat/9.0.19]
+17:35:41.486 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] [173] - Initializing Spring embedded WebApplicationContext
+17:35:41.487 INFO  o.s.web.context.ContextLoader [296] - Root WebApplicationContext: initialization completed in 583 ms
+17:35:41.496 INFO  com.lxjn.hgd.config.UrlFilter [30] - 过滤器初始化...
+17:35:41.990 INFO  com.lxjn.hgd.config.WebConfigurer [38] - 正在加载请求拦截器...
+17:35:42.018 INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping [69] - Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+17:35:42.023 INFO  com.lxjn.hgd.config.WebConfigurer [56] - 加载静态资源拦截器...
+17:35:42.043 INFO  o.s.b.d.a.OptionalLiveReloadServer [57] - LiveReload server is running on port 35729
+17:35:42.123 INFO  s.d.s.w.p.DocumentationPluginsBootstrapper [160] - Context refreshed
+17:35:42.124 INFO  s.d.s.w.p.DocumentationPluginsBootstrapper [163] - Found 1 custom documentation plugin(s)
+17:35:42.128 INFO  s.d.s.w.s.ApiListingReferenceScanner [41] - Scanning for api listing references
+17:35:42.143 INFO  o.a.coyote.http11.Http11NioProtocol [173] - Starting ProtocolHandler ["http-nio-8080"]
+17:35:42.145 INFO  o.s.b.w.e.tomcat.TomcatWebServer [204] - Tomcat started on port(s): 8080 (http) with context path ''
+17:35:42.146 INFO  com.lxjn.hgd.HgdApplication [59] - Started HgdApplication in 1.27 seconds (JVM running for 1970.168)
+17:35:42.147 INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener [70] - Condition evaluation unchanged
+17:37:08.499 INFO  com.lxjn.hgd.config.UrlFilter [48] - 销毁过滤器...
+17:37:08.647 INFO  com.lxjn.hgd.HgdApplication [50] - Starting HgdApplication on longzhuang with PID 7660 (E:\project\hgd\target\classes started by longzhuang in E:\project\hgd)
+17:37:08.647 INFO  com.lxjn.hgd.HgdApplication [679] - The following profiles are active: dev
+17:37:09.071 INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [330] - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$1abd129c] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+17:37:09.140 INFO  o.s.b.w.e.tomcat.TomcatWebServer [90] - Tomcat initialized with port(s): 8080 (http)
+17:37:09.140 INFO  o.a.coyote.http11.Http11NioProtocol [173] - Initializing ProtocolHandler ["http-nio-8080"]
+17:37:09.140 INFO  o.a.catalina.core.StandardService [173] - Starting service [Tomcat]
+17:37:09.141 INFO  o.a.catalina.core.StandardEngine [173] - Starting Servlet engine: [Apache Tomcat/9.0.19]
+17:37:09.155 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] [173] - Initializing Spring embedded WebApplicationContext
+17:37:09.156 INFO  o.s.web.context.ContextLoader [296] - Root WebApplicationContext: initialization completed in 507 ms
+17:37:09.165 INFO  com.lxjn.hgd.config.UrlFilter [30] - 过滤器初始化...
+17:37:09.685 INFO  com.lxjn.hgd.config.WebConfigurer [38] - 正在加载请求拦截器...
+17:37:09.714 INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping [69] - Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+17:37:09.720 INFO  com.lxjn.hgd.config.WebConfigurer [56] - 加载静态资源拦截器...
+17:37:09.743 INFO  o.s.b.d.a.OptionalLiveReloadServer [57] - LiveReload server is running on port 35729
+17:37:09.832 INFO  s.d.s.w.p.DocumentationPluginsBootstrapper [160] - Context refreshed
+17:37:09.833 INFO  s.d.s.w.p.DocumentationPluginsBootstrapper [163] - Found 1 custom documentation plugin(s)
+17:37:09.837 INFO  s.d.s.w.s.ApiListingReferenceScanner [41] - Scanning for api listing references
+17:37:09.851 INFO  o.a.coyote.http11.Http11NioProtocol [173] - Starting ProtocolHandler ["http-nio-8080"]
+17:37:09.854 INFO  o.s.b.w.e.tomcat.TomcatWebServer [204] - Tomcat started on port(s): 8080 (http) with context path ''
+17:37:09.854 INFO  com.lxjn.hgd.HgdApplication [59] - Started HgdApplication in 1.229 seconds (JVM running for 2057.877)
+17:37:09.856 INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener [70] - Condition evaluation unchanged
+17:44:09.494 INFO  com.lxjn.hgd.config.UrlFilter [48] - 销毁过滤器...
+17:44:09.705 INFO  com.lxjn.hgd.HgdApplication [50] - Starting HgdApplication on longzhuang with PID 7660 (E:\project\hgd\target\classes started by longzhuang in E:\project\hgd)
+17:44:09.705 INFO  com.lxjn.hgd.HgdApplication [679] - The following profiles are active: dev
+17:44:10.115 INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [330] - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$1abd129c] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+17:44:10.182 INFO  o.s.b.w.e.tomcat.TomcatWebServer [90] - Tomcat initialized with port(s): 8080 (http)
+17:44:10.183 INFO  o.a.coyote.http11.Http11NioProtocol [173] - Initializing ProtocolHandler ["http-nio-8080"]
+17:44:10.183 INFO  o.a.catalina.core.StandardService [173] - Starting service [Tomcat]
+17:44:10.183 INFO  o.a.catalina.core.StandardEngine [173] - Starting Servlet engine: [Apache Tomcat/9.0.19]
+17:44:10.196 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] [173] - Initializing Spring embedded WebApplicationContext
+17:44:10.197 INFO  o.s.web.context.ContextLoader [296] - Root WebApplicationContext: initialization completed in 489 ms
+17:44:10.206 INFO  com.lxjn.hgd.config.UrlFilter [30] - 过滤器初始化...
+17:44:10.705 INFO  com.lxjn.hgd.config.WebConfigurer [38] - 正在加载请求拦截器...
+17:44:10.730 INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping [69] - Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+17:44:10.735 INFO  com.lxjn.hgd.config.WebConfigurer [56] - 加载静态资源拦截器...
+17:44:10.752 INFO  o.s.b.d.a.OptionalLiveReloadServer [57] - LiveReload server is running on port 35729
+17:44:10.827 INFO  s.d.s.w.p.DocumentationPluginsBootstrapper [160] - Context refreshed
+17:44:10.828 INFO  s.d.s.w.p.DocumentationPluginsBootstrapper [163] - Found 1 custom documentation plugin(s)
+17:44:10.831 INFO  s.d.s.w.s.ApiListingReferenceScanner [41] - Scanning for api listing references
+17:44:10.843 INFO  o.a.coyote.http11.Http11NioProtocol [173] - Starting ProtocolHandler ["http-nio-8080"]
+17:44:10.846 INFO  o.s.b.w.e.tomcat.TomcatWebServer [204] - Tomcat started on port(s): 8080 (http) with context path ''
+17:44:10.846 INFO  com.lxjn.hgd.HgdApplication [59] - Started HgdApplication in 1.163 seconds (JVM running for 2478.868)
+17:44:10.848 INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener [70] - Condition evaluation unchanged
+17:44:47.828 INFO  com.lxjn.hgd.config.UrlFilter [54] - 销毁过滤器...
+17:44:48.076 INFO  com.lxjn.hgd.HgdApplication [50] - Starting HgdApplication on longzhuang with PID 7660 (E:\project\hgd\target\classes started by longzhuang in E:\project\hgd)
+17:44:48.076 INFO  com.lxjn.hgd.HgdApplication [679] - The following profiles are active: dev
+17:44:48.488 INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [330] - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$1abd129c] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+17:44:48.554 INFO  o.s.b.w.e.tomcat.TomcatWebServer [90] - Tomcat initialized with port(s): 8080 (http)
+17:44:48.555 INFO  o.a.coyote.http11.Http11NioProtocol [173] - Initializing ProtocolHandler ["http-nio-8080"]
+17:44:48.555 INFO  o.a.catalina.core.StandardService [173] - Starting service [Tomcat]
+17:44:48.555 INFO  o.a.catalina.core.StandardEngine [173] - Starting Servlet engine: [Apache Tomcat/9.0.19]
+17:44:48.568 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] [173] - Initializing Spring embedded WebApplicationContext
+17:44:48.568 INFO  o.s.web.context.ContextLoader [296] - Root WebApplicationContext: initialization completed in 489 ms
+17:44:48.578 INFO  com.lxjn.hgd.config.UrlFilter [30] - 过滤器初始化...
+17:44:49.046 INFO  com.lxjn.hgd.config.WebConfigurer [38] - 正在加载请求拦截器...
+17:44:49.073 INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping [69] - Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+17:44:49.079 INFO  com.lxjn.hgd.config.WebConfigurer [56] - 加载静态资源拦截器...
+17:44:49.098 INFO  o.s.b.d.a.OptionalLiveReloadServer [57] - LiveReload server is running on port 35729
+17:44:49.178 INFO  s.d.s.w.p.DocumentationPluginsBootstrapper [160] - Context refreshed
+17:44:49.179 INFO  s.d.s.w.p.DocumentationPluginsBootstrapper [163] - Found 1 custom documentation plugin(s)
+17:44:49.183 INFO  s.d.s.w.s.ApiListingReferenceScanner [41] - Scanning for api listing references
+17:44:49.195 INFO  o.a.coyote.http11.Http11NioProtocol [173] - Starting ProtocolHandler ["http-nio-8080"]
+17:44:49.198 INFO  o.s.b.w.e.tomcat.TomcatWebServer [204] - Tomcat started on port(s): 8080 (http) with context path ''
+17:44:49.198 INFO  com.lxjn.hgd.HgdApplication [59] - Started HgdApplication in 1.145 seconds (JVM running for 2517.22)
+17:44:49.200 INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener [70] - Condition evaluation unchanged
+17:45:07.800 INFO  com.lxjn.hgd.config.UrlFilter [55] - 销毁过滤器...
+17:45:07.945 INFO  com.lxjn.hgd.HgdApplication [50] - Starting HgdApplication on longzhuang with PID 7660 (E:\project\hgd\target\classes started by longzhuang in E:\project\hgd)
+17:45:07.945 INFO  com.lxjn.hgd.HgdApplication [679] - The following profiles are active: dev
+17:45:08.370 INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [330] - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$1abd129c] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+17:45:08.435 INFO  o.s.b.w.e.tomcat.TomcatWebServer [90] - Tomcat initialized with port(s): 8080 (http)
+17:45:08.435 INFO  o.a.coyote.http11.Http11NioProtocol [173] - Initializing ProtocolHandler ["http-nio-8080"]
+17:45:08.435 INFO  o.a.catalina.core.StandardService [173] - Starting service [Tomcat]
+17:45:08.436 INFO  o.a.catalina.core.StandardEngine [173] - Starting Servlet engine: [Apache Tomcat/9.0.19]
+17:45:08.449 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] [173] - Initializing Spring embedded WebApplicationContext
+17:45:08.449 INFO  o.s.web.context.ContextLoader [296] - Root WebApplicationContext: initialization completed in 501 ms
+17:45:08.457 INFO  com.lxjn.hgd.config.UrlFilter [30] - 过滤器初始化...
+17:45:08.888 INFO  com.lxjn.hgd.config.WebConfigurer [38] - 正在加载请求拦截器...
+17:45:08.914 INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping [69] - Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+17:45:08.919 INFO  com.lxjn.hgd.config.WebConfigurer [56] - 加载静态资源拦截器...
+17:45:08.936 INFO  o.s.b.d.a.OptionalLiveReloadServer [57] - LiveReload server is running on port 35729
+17:45:09.006 INFO  s.d.s.w.p.DocumentationPluginsBootstrapper [160] - Context refreshed
+17:45:09.006 INFO  s.d.s.w.p.DocumentationPluginsBootstrapper [163] - Found 1 custom documentation plugin(s)
+17:45:09.010 INFO  s.d.s.w.s.ApiListingReferenceScanner [41] - Scanning for api listing references
+17:45:09.022 INFO  o.a.coyote.http11.Http11NioProtocol [173] - Starting ProtocolHandler ["http-nio-8080"]
+17:45:09.025 INFO  o.s.b.w.e.tomcat.TomcatWebServer [204] - Tomcat started on port(s): 8080 (http) with context path ''
+17:45:09.025 INFO  com.lxjn.hgd.HgdApplication [59] - Started HgdApplication in 1.101 seconds (JVM running for 2537.047)
+17:45:09.027 INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener [70] - Condition evaluation unchanged
+17:45:19.547 INFO  com.lxjn.hgd.config.UrlFilter [55] - 销毁过滤器...
+17:45:19.692 INFO  com.lxjn.hgd.HgdApplication [50] - Starting HgdApplication on longzhuang with PID 7660 (E:\project\hgd\target\classes started by longzhuang in E:\project\hgd)
+17:45:19.692 INFO  com.lxjn.hgd.HgdApplication [679] - The following profiles are active: dev
+17:45:20.084 INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [330] - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$1abd129c] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+17:45:20.148 INFO  o.s.b.w.e.tomcat.TomcatWebServer [90] - Tomcat initialized with port(s): 8080 (http)
+17:45:20.148 INFO  o.a.coyote.http11.Http11NioProtocol [173] - Initializing ProtocolHandler ["http-nio-8080"]
+17:45:20.148 INFO  o.a.catalina.core.StandardService [173] - Starting service [Tomcat]
+17:45:20.148 INFO  o.a.catalina.core.StandardEngine [173] - Starting Servlet engine: [Apache Tomcat/9.0.19]
+17:45:20.163 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] [173] - Initializing Spring embedded WebApplicationContext
+17:45:20.163 INFO  o.s.web.context.ContextLoader [296] - Root WebApplicationContext: initialization completed in 469 ms
+17:45:20.172 INFO  com.lxjn.hgd.config.UrlFilter [30] - 过滤器初始化...
+17:45:20.601 INFO  com.lxjn.hgd.config.WebConfigurer [38] - 正在加载请求拦截器...
+17:45:20.626 INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping [69] - Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+17:45:20.631 INFO  com.lxjn.hgd.config.WebConfigurer [56] - 加载静态资源拦截器...
+17:45:20.649 INFO  o.s.b.d.a.OptionalLiveReloadServer [57] - LiveReload server is running on port 35729
+17:45:20.718 INFO  s.d.s.w.p.DocumentationPluginsBootstrapper [160] - Context refreshed
+17:45:20.719 INFO  s.d.s.w.p.DocumentationPluginsBootstrapper [163] - Found 1 custom documentation plugin(s)
+17:45:20.723 INFO  s.d.s.w.s.ApiListingReferenceScanner [41] - Scanning for api listing references
+17:45:20.735 INFO  o.a.coyote.http11.Http11NioProtocol [173] - Starting ProtocolHandler ["http-nio-8080"]
+17:45:20.737 INFO  o.s.b.w.e.tomcat.TomcatWebServer [204] - Tomcat started on port(s): 8080 (http) with context path ''
+17:45:20.738 INFO  com.lxjn.hgd.HgdApplication [59] - Started HgdApplication in 1.069 seconds (JVM running for 2548.76)
+17:45:20.739 INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener [70] - Condition evaluation unchanged
+17:49:32.627 INFO  com.lxjn.hgd.config.UrlFilter [55] - 销毁过滤器...
+17:49:32.973 INFO  com.lxjn.hgd.HgdApplication [50] - Starting HgdApplication on longzhuang with PID 7660 (E:\project\hgd\target\classes started by longzhuang in E:\project\hgd)
+17:49:32.974 INFO  com.lxjn.hgd.HgdApplication [679] - The following profiles are active: dev
+17:49:33.398 INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [330] - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$1abd129c] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+17:49:33.466 INFO  o.s.b.w.e.tomcat.TomcatWebServer [90] - Tomcat initialized with port(s): 8080 (http)
+17:49:33.466 INFO  o.a.coyote.http11.Http11NioProtocol [173] - Initializing ProtocolHandler ["http-nio-8080"]
+17:49:33.466 INFO  o.a.catalina.core.StandardService [173] - Starting service [Tomcat]
+17:49:33.466 INFO  o.a.catalina.core.StandardEngine [173] - Starting Servlet engine: [Apache Tomcat/9.0.19]
+17:49:33.481 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] [173] - Initializing Spring embedded WebApplicationContext
+17:49:33.481 INFO  o.s.web.context.ContextLoader [296] - Root WebApplicationContext: initialization completed in 504 ms
+17:49:33.490 INFO  com.lxjn.hgd.config.UrlFilter [30] - 过滤器初始化...
+17:49:34.015 INFO  com.lxjn.hgd.config.WebConfigurer [38] - 正在加载请求拦截器...
+17:49:34.044 INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping [69] - Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+17:49:34.050 INFO  com.lxjn.hgd.config.WebConfigurer [56] - 加载静态资源拦截器...
+17:49:34.071 INFO  o.s.b.d.a.OptionalLiveReloadServer [57] - LiveReload server is running on port 35729
+17:49:34.153 INFO  s.d.s.w.p.DocumentationPluginsBootstrapper [160] - Context refreshed
+17:49:34.154 INFO  s.d.s.w.p.DocumentationPluginsBootstrapper [163] - Found 1 custom documentation plugin(s)
+17:49:34.159 INFO  s.d.s.w.s.ApiListingReferenceScanner [41] - Scanning for api listing references
+17:49:34.175 INFO  o.a.coyote.http11.Http11NioProtocol [173] - Starting ProtocolHandler ["http-nio-8080"]
+17:49:34.178 INFO  o.s.b.w.e.tomcat.TomcatWebServer [204] - Tomcat started on port(s): 8080 (http) with context path ''
+17:49:34.178 INFO  com.lxjn.hgd.HgdApplication [59] - Started HgdApplication in 1.227 seconds (JVM running for 2802.2)
+17:49:34.180 INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener [70] - Condition evaluation unchanged
+17:51:30.914 INFO  com.lxjn.hgd.config.UrlFilter [55] - 销毁过滤器...
+17:51:31.042 INFO  com.lxjn.hgd.HgdApplication [50] - Starting HgdApplication on longzhuang with PID 7660 (E:\project\hgd\target\classes started by longzhuang in E:\project\hgd)
+17:51:31.042 INFO  com.lxjn.hgd.HgdApplication [679] - The following profiles are active: dev
+17:51:31.443 INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [330] - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$1abd129c] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+17:51:31.508 INFO  o.s.b.w.e.tomcat.TomcatWebServer [90] - Tomcat initialized with port(s): 8080 (http)
+17:51:31.509 INFO  o.a.coyote.http11.Http11NioProtocol [173] - Initializing ProtocolHandler ["http-nio-8080"]
+17:51:31.509 INFO  o.a.catalina.core.StandardService [173] - Starting service [Tomcat]
+17:51:31.509 INFO  o.a.catalina.core.StandardEngine [173] - Starting Servlet engine: [Apache Tomcat/9.0.19]
+17:51:31.525 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] [173] - Initializing Spring embedded WebApplicationContext
+17:51:31.525 INFO  o.s.web.context.ContextLoader [296] - Root WebApplicationContext: initialization completed in 481 ms
+17:51:31.534 INFO  com.lxjn.hgd.config.UrlFilter [30] - 过滤器初始化...
+17:51:31.970 INFO  com.lxjn.hgd.config.WebConfigurer [38] - 正在加载请求拦截器...
+17:51:31.996 INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping [69] - Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+17:51:32.001 INFO  com.lxjn.hgd.config.WebConfigurer [56] - 加载静态资源拦截器...
+17:51:32.019 INFO  o.s.b.d.a.OptionalLiveReloadServer [57] - LiveReload server is running on port 35729
+17:51:32.089 INFO  s.d.s.w.p.DocumentationPluginsBootstrapper [160] - Context refreshed
+17:51:32.090 INFO  s.d.s.w.p.DocumentationPluginsBootstrapper [163] - Found 1 custom documentation plugin(s)
+17:51:32.093 INFO  s.d.s.w.s.ApiListingReferenceScanner [41] - Scanning for api listing references
+17:51:32.106 INFO  o.a.coyote.http11.Http11NioProtocol [173] - Starting ProtocolHandler ["http-nio-8080"]
+17:51:32.108 INFO  o.s.b.w.e.tomcat.TomcatWebServer [204] - Tomcat started on port(s): 8080 (http) with context path ''
+17:51:32.109 INFO  com.lxjn.hgd.HgdApplication [59] - Started HgdApplication in 1.088 seconds (JVM running for 2920.13)
+17:51:32.110 INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener [70] - Condition evaluation unchanged
+17:58:23.261 INFO  com.lxjn.hgd.config.UrlFilter [55] - 销毁过滤器...
+17:58:25.331 DEBUG o.h.v.m.ResourceBundleMessageInterpolator [89] - Loaded expression factory via original TCCL
+17:58:25.422 INFO  com.lxjn.hgd.HgdApplication [50] - Starting HgdApplication on longzhuang with PID 16424 (E:\project\hgd\target\classes started by longzhuang in E:\project\hgd)
+17:58:25.423 INFO  com.lxjn.hgd.HgdApplication [679] - The following profiles are active: dev
+17:58:25.464 INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor [227] - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+17:58:25.464 INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor [227] - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+17:58:26.530 INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [330] - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$95335a6d] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+17:58:26.788 INFO  o.s.b.w.e.tomcat.TomcatWebServer [90] - Tomcat initialized with port(s): 8080 (http)
+17:58:26.799 INFO  o.a.coyote.http11.Http11NioProtocol [173] - Initializing ProtocolHandler ["http-nio-8080"]
+17:58:26.806 INFO  o.a.catalina.core.StandardService [173] - Starting service [Tomcat]
+17:58:26.806 INFO  o.a.catalina.core.StandardEngine [173] - Starting Servlet engine: [Apache Tomcat/9.0.19]
+17:58:26.890 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] [173] - Initializing Spring embedded WebApplicationContext
+17:58:26.890 INFO  o.s.web.context.ContextLoader [296] - Root WebApplicationContext: initialization completed in 1425 ms
+17:58:26.933 INFO  com.lxjn.hgd.config.UrlFilter [30] - 过滤器初始化...
+17:58:28.088 INFO  com.lxjn.hgd.config.WebConfigurer [38] - 正在加载请求拦截器...
+17:58:28.166 INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping [69] - Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+17:58:28.180 INFO  com.lxjn.hgd.config.WebConfigurer [56] - 加载静态资源拦截器...
+17:58:28.241 INFO  o.s.b.d.a.OptionalLiveReloadServer [57] - LiveReload server is running on port 35729
+17:58:28.415 INFO  s.d.s.w.p.DocumentationPluginsBootstrapper [160] - Context refreshed
+17:58:28.429 INFO  s.d.s.w.p.DocumentationPluginsBootstrapper [163] - Found 1 custom documentation plugin(s)
+17:58:28.458 INFO  s.d.s.w.s.ApiListingReferenceScanner [41] - Scanning for api listing references
+17:58:28.571 INFO  o.a.coyote.http11.Http11NioProtocol [173] - Starting ProtocolHandler ["http-nio-8080"]
+17:58:28.589 INFO  o.s.b.w.e.tomcat.TomcatWebServer [204] - Tomcat started on port(s): 8080 (http) with context path ''
+17:58:28.591 INFO  com.lxjn.hgd.HgdApplication [59] - Started HgdApplication in 3.574 seconds (JVM running for 4.584)
+17:59:33.955 INFO  com.lxjn.hgd.config.UrlFilter [55] - 销毁过滤器...
+17:59:38.231 INFO  com.lxjn.hgd.HgdApplication [50] - Starting HgdApplication on longzhuang with PID 7520 (E:\project\hgd\target\classes started by longzhuang in E:\project\hgd)
+17:59:38.234 INFO  com.lxjn.hgd.HgdApplication [679] - The following profiles are active: dev
+17:59:38.277 INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor [227] - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+17:59:38.277 INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor [227] - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+17:59:39.449 INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [330] - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$82c2376c] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+17:59:39.745 INFO  o.s.b.w.e.tomcat.TomcatWebServer [90] - Tomcat initialized with port(s): 8080 (http)
+17:59:39.762 INFO  o.a.coyote.http11.Http11NioProtocol [173] - Initializing ProtocolHandler ["http-nio-8080"]
+17:59:39.773 INFO  o.a.catalina.core.StandardService [173] - Starting service [Tomcat]
+17:59:39.774 INFO  o.a.catalina.core.StandardEngine [173] - Starting Servlet engine: [Apache Tomcat/9.0.19]
+17:59:39.885 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] [173] - Initializing Spring embedded WebApplicationContext
+17:59:39.886 INFO  o.s.web.context.ContextLoader [296] - Root WebApplicationContext: initialization completed in 1609 ms
+17:59:39.955 INFO  com.lxjn.hgd.config.UrlFilter [30] - 过滤器初始化...
+17:59:41.144 INFO  com.lxjn.hgd.config.WebConfigurer [38] - 正在加载请求拦截器...
+17:59:41.221 INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping [69] - Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+17:59:41.236 INFO  com.lxjn.hgd.config.WebConfigurer [56] - 加载静态资源拦截器...
+17:59:41.296 INFO  o.s.b.d.a.OptionalLiveReloadServer [57] - LiveReload server is running on port 35729
+17:59:41.468 INFO  s.d.s.w.p.DocumentationPluginsBootstrapper [160] - Context refreshed
+17:59:41.482 INFO  s.d.s.w.p.DocumentationPluginsBootstrapper [163] - Found 1 custom documentation plugin(s)
+17:59:41.511 INFO  s.d.s.w.s.ApiListingReferenceScanner [41] - Scanning for api listing references
+17:59:41.627 INFO  o.a.coyote.http11.Http11NioProtocol [173] - Starting ProtocolHandler ["http-nio-8080"]
+17:59:41.650 INFO  o.s.b.w.e.tomcat.TomcatWebServer [204] - Tomcat started on port(s): 8080 (http) with context path ''
+17:59:41.652 INFO  com.lxjn.hgd.HgdApplication [59] - Started HgdApplication in 3.824 seconds (JVM running for 4.794)
+18:00:02.957 INFO  o.a.tomcat.util.http.parser.Cookie [173] - A cookie header was received [1613715950] that contained an invalid cookie. That cookie will be ignored.
+ Note: further occurrences of this error will be logged at DEBUG level.
+18:00:02.964 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] [173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+18:00:02.964 INFO  o.s.web.servlet.DispatcherServlet [524] - Initializing Servlet 'dispatcherServlet'
+18:00:02.972 INFO  o.s.web.servlet.DispatcherServlet [546] - Completed initialization in 8 ms
+18:00:02.979 INFO  com.lxjn.hgd.config.UrlFilter [35] - 过滤器业务执行中...
+18:00:07.499 INFO  c.lxjn.hgd.config.GlobalInterceptor [29] - 请求预处理...
+18:00:08.683 INFO  c.lxjn.hgd.config.GlobalInterceptor [45] - 请求后处理...
+18:00:18.263 INFO  c.lxjn.hgd.config.GlobalInterceptor [58] - 请求结果返回后处理...
+18:00:36.983 INFO  c.lxjn.hgd.config.GlobalInterceptor [29] - 请求预处理...
+18:00:37.838 INFO  c.lxjn.hgd.config.GlobalInterceptor [45] - 请求后处理...
+18:00:38.472 INFO  c.lxjn.hgd.config.GlobalInterceptor [58] - 请求结果返回后处理...
+18:01:35.740 INFO  com.lxjn.hgd.config.UrlFilter [35] - 过滤器业务执行中...
+18:01:35.740 INFO  c.lxjn.hgd.config.GlobalInterceptor [29] - 请求预处理...
+18:01:35.775 WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver [198] - Resolved [org.springframework.http.converter.HttpMessageNotWritableException: No converter found for return value of type: class com.lxjn.hgd.util.Result]
+18:01:48.182 INFO  c.lxjn.hgd.config.GlobalInterceptor [58] - 请求结果返回后处理...
+18:01:48.184 INFO  c.lxjn.hgd.config.GlobalInterceptor [29] - 请求预处理...
+18:01:50.930 INFO  c.lxjn.hgd.config.GlobalInterceptor [45] - 请求后处理...
+18:01:53.690 INFO  c.lxjn.hgd.config.GlobalInterceptor [58] - 请求结果返回后处理...
+18:02:35.588 INFO  com.lxjn.hgd.config.UrlFilter [35] - 过滤器业务执行中...
+18:02:35.588 INFO  c.lxjn.hgd.config.GlobalInterceptor [29] - 请求预处理...
+18:03:26.673 WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver [198] - Resolved [org.springframework.http.converter.HttpMessageNotWritableException: No converter found for return value of type: class com.lxjn.hgd.util.Result]
+18:04:36.289 INFO  c.lxjn.hgd.config.GlobalInterceptor [58] - 请求结果返回后处理...
+18:04:36.290 INFO  c.lxjn.hgd.config.GlobalInterceptor [29] - 请求预处理...
+18:04:40.979 INFO  c.lxjn.hgd.config.GlobalInterceptor [45] - 请求后处理...
+18:04:42.400 INFO  c.lxjn.hgd.config.GlobalInterceptor [58] - 请求结果返回后处理...
+18:04:53.146 INFO  com.lxjn.hgd.config.UrlFilter [35] - 过滤器业务执行中...
+18:04:53.146 INFO  c.lxjn.hgd.config.GlobalInterceptor [29] - 请求预处理...
+18:04:53.147 WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver [198] - Resolved [org.springframework.http.converter.HttpMessageNotWritableException: No converter found for return value of type: class com.lxjn.hgd.util.Result]
+18:04:55.440 INFO  c.lxjn.hgd.config.GlobalInterceptor [58] - 请求结果返回后处理...
+18:04:55.441 INFO  c.lxjn.hgd.config.GlobalInterceptor [29] - 请求预处理...
+18:04:55.964 INFO  c.lxjn.hgd.config.GlobalInterceptor [45] - 请求后处理...
+18:04:56.493 INFO  c.lxjn.hgd.config.GlobalInterceptor [58] - 请求结果返回后处理...

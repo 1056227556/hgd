@@ -19,11 +19,15 @@ public class CodeGenerator {
 //    数据库驱动
     private static String driver = "com.mysql.jdbc.Driver";
 //    数据库连接地址
-    private static String url="jdbc:mysql://122.51.200.216:3306/hgd?useUnicode=true&characterEncoding=UTF-8&zeroDateTimeBehavior=convertToNull&allowMultiQueries=true&serverTimezone=UTC";
-//    数据库用户名
+//    private static String url="jdbc:mysql://122.51.200.216:3306/hgd?useUnicode=true&characterEncoding=UTF-8&zeroDateTimeBehavior=convertToNull&allowMultiQueries=true&serverTimezone=UTC";
+    private static String url="jdbc:mysql://127.0.0.1:3306/hrs?useUnicode=true&characterEncoding=UTF-8&zeroDateTimeBehavior=convertToNull&allowMultiQueries=true&serverTimezone=UTC";
+
+
+    //    数据库用户名
     private static String  username="root";
 //    数据库密码
-    private static String  password="DtSHZnKFywFaAGia";
+//    private static String  password="DtSHZnKFywFaAGia";
+    private static String  password="123456";
 //    作者
     private static String author = "lxjn";
 //    包路径
@@ -31,17 +35,21 @@ public class CodeGenerator {
 //    模块名称
     private static String moduleName = "language";
 //    要生成的表
-    private static String[] tableNames = {"tb_language","tb_language_msg"};
+    private static String[] tableNames = {"hrs_room"};
 //    排除的表
     private static String[] exclude = {};
 //    表前缀
-    private static String tablePrefix = "tb_";
+//  private static String tablePrefix = "tb_";
+    private static String tablePrefix = "hrs_";
 //    实体类公共类
-    private static String superEntity = "com.lxjn.hgd.module.EntityParent";
+//private static String superEntity = "com.lxjn.hgd.module.EntityParent";
+    private static String superEntity = "";
 //    公共字段
-    private static String[] superColumns = {"id","creator","createtime","updater","updatetime","rank"};
+//    private static String[] superColumns = {"id","creator","createtime","updater","updatetime","rank"};
 
-
+    private static String[] superColumns = {};
+//    文件输出路径
+    private static String filePath = "C:\\Users\\longzhuang\\Desktop\\新建文件夹";
     /**
      * <p>
      * 读取控制台内容
@@ -65,7 +73,13 @@ public class CodeGenerator {
 
         // 全局配置
         GlobalConfig gc = new GlobalConfig();
-        String projectPath = System.getProperty("user.dir");
+        String projectPath;
+        if (filePath==null||"".equals(filePath)){
+            projectPath = System.getProperty("user.dir");
+        }else {
+            projectPath = filePath;
+        }
+
         gc.setOutputDir(projectPath + "/src/main/java");
         gc.setAuthor(author);
         gc.setOpen(false);
@@ -154,7 +168,9 @@ public class CodeGenerator {
         strategy.setColumnNaming(NamingStrategy.underline_to_camel);
 
         // 实体继承类全称
-        strategy.setSuperEntityClass(superEntity);
+        if (superEntity!=null&&!"".equals(superEntity)){
+            strategy.setSuperEntityClass(superEntity);
+        }
 
         // 写于父类中的公共字段
         strategy.setSuperEntityColumns(superColumns);

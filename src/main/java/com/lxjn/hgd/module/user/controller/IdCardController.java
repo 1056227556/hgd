@@ -1,20 +1,14 @@
 package com.lxjn.hgd.module.user.controller;
 
 
+import io.swagger.annotations.Api;
 import org.springframework.web.bind.annotation.RequestMapping;
 
 import org.springframework.web.bind.annotation.RestController;
 
-/**
- * <p>
- *  前端控制器
- * </p>
- *
- * @author lxjn
- * @since 2020-12-24
- */
+@Api(tags = "身份证管理模块")
 @RestController
-@RequestMapping("/model/user-id-card")
-public class UserIdCardController {
+@RequestMapping("idCard")
+public class IdCardController {
 
 }

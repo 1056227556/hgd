@@ -1,6 +1,6 @@
 package com.lxjn.hgd.module.user.mapper;
 
-import com.lxjn.hgd.module.user.entity.UserIdCard;
+import com.lxjn.hgd.module.user.entity.IdCard;
 import com.baomidou.mybatisplus.core.mapper.BaseMapper;
 
 /**
@@ -11,6 +11,6 @@ import com.baomidou.mybatisplus.core.mapper.BaseMapper;
  * @author lxjn
  * @since 2020-12-24
  */
-public interface UserIdCardMapper extends BaseMapper<UserIdCard> {
+public interface IdCardMapper extends BaseMapper<IdCard> {
 
 }

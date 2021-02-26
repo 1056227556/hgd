@@ -17,8 +17,8 @@ import lombok.EqualsAndHashCode;
  */
 @Data
 @EqualsAndHashCode(callSuper = true)
-@TableName("tb_user_id_card")
-public class UserIdCard extends EntityParent {
+@TableName("tb_id_card")
+public class IdCard extends EntityParent {
 
     private static final long serialVersionUID = 1L;
 

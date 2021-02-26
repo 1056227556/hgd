@@ -7,6 +7,7 @@ import org.springframework.web.servlet.ModelAndView;
 
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
+import java.util.Enumeration;
 
 /**
  * 通用请求拦截器
@@ -39,6 +40,8 @@ public class GlobalInterceptor implements HandlerInterceptor {
      */
     @Override
     public void postHandle(HttpServletRequest request, HttpServletResponse response, Object handler, ModelAndView modelAndView) throws Exception {
+        Enumeration<String> headerNames = request.getHeaderNames();
+        String language = request.getLocale().getLanguage();
         log.info("请求后处理...");
     }
 

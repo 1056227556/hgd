@@ -1,6 +1,6 @@
 package com.lxjn.hgd.module.user.service;
 
-import com.lxjn.hgd.module.user.entity.UserIdCard;
+import com.lxjn.hgd.module.user.entity.IdCard;
 import com.baomidou.mybatisplus.extension.service.IService;
 
 /**
@@ -11,6 +11,6 @@ import com.baomidou.mybatisplus.extension.service.IService;
  * @author lxjn
  * @since 2020-12-24
  */
-public interface IUserIdCardService extends IService<UserIdCard> {
+public interface IdCardService extends IService<IdCard> {
 
 }
